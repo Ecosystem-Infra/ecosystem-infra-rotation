@@ -5,7 +5,11 @@ When the importer is persistently failing, please [file an importer bug](https:/
 
 If the import is failing due to specific tests, unblock import by adding them to [TestExpectations](https://cs.chromium.org/chromium/src/third_party/blink/web_tests/TestExpectations), and if necessary clean that up after a successful import. (For manual tests, instead add them to [NeverFixTests](https://cs.chromium.org/chromium/src/third_party/blink/web_tests/NeverFixTests).) This is much preferable to a [manual import](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md#Manual-import) because the importer will also file bugs for regressions, which will not be filed when importing manually.
 
-
+If the import is failing due to changes in the
+[WPT Tools](https://github.com/web-platform-tests/wpt/tree/master/tools)
+directory, it's best to create a PR to fix the error in upstream WPT. These are
+typically expected to be lint errors (eg: whitespace, mismatch with executable
+bits, etc).
 
 
 When you're on rotation, the importer will add your as a TBR reviewer for import CLs, but you don’t need to review the CLs if there’s no sign of trouble.
