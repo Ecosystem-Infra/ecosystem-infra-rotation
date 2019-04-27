@@ -1529,7 +1529,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/770471953",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "234",
+            "last_visit_days_ago": "235",
             "name": "kereliuk@chromium.org"
           },
           {
@@ -2143,7 +2143,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1026888156",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "petermayo@chromium.org"
           },
           {
