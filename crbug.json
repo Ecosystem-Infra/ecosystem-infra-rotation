@@ -555,7 +555,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1091219484",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "37",
+            "last_visit_days_ago": "38",
             "name": "yangguo@chromium.org"
           },
           {
@@ -900,7 +900,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3626596022",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "toyoshim@chromium.org"
           }
         ],
