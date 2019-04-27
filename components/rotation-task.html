@@ -1,0 +1,113 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-collapse-item/paper-collapse-item.html">
+<link rel="import" href="../bower_components/paper-badge/paper-badge.html">
+<link rel="import" href="../bower_components/paper-item/paper-icon-item.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/marked-element/marked-element.html">
+
+<dom-module id="rotation-task">
+  <template>
+    <style>
+      :host {
+        --paper-badge-height: 32px;
+        --paper-badge-width: 32px;
+      }
+      paper-badge {
+        /* initial state before async check is done */
+        --paper-badge-background: var(--paper-grey-400);
+      }
+      paper-badge.broken {
+        --paper-badge-background: var(--paper-purple-400);
+      }
+      paper-badge.pass {
+        --paper-badge-background: var(--paper-green-400);
+      }
+      paper-badge.fail {
+        --paper-badge-background: var(--paper-red-400);
+      }
+      a {
+        color: var(--paper-blue-800);
+      }
+      marked-element {
+        @apply --paper-font-subhead;
+        white-space: normal;
+      }
+      marked-element pre {
+        white-space: pre-wrap;
+      }
+    </style>
+
+    <div>
+      <paper-collapse-item>
+        <paper-icon-item slot='header'>
+          <div slot='item-icon'>
+            <paper-badge label='[[_computeBadgeLabel(task.count)]]' class$='[[_computeBadgeClass(task.count)]]'></paper-badge>
+          </div>
+          <a href='[[task.href]]' target='_blank'>[[task.name]]</a>
+        </paper-icon-item>
+        <marked-element>
+          <div slot="markdown-html"></div>
+          <script type="text/markdown" src$="docs/[[task.docs]]"></script>
+        </marked-element>
+      </paper-collapse-item>
+    </div>
+
+  </template>
+
+  <script>
+    class RotationTask extends Polymer.Element {
+      static get is() {
+        return 'rotation-task';
+      }
+
+      static get properties() {
+        return {
+          task: Object,
+        };
+      }
+
+      ready() {
+        super.ready();
+
+        // the status promise resolves to the count
+        if (this.task.status) {
+          this.task.status.then(count => {
+            this.set('task.count', count);
+          }).catch(error => {
+            console.error(error);
+            // TODO: replace count with something more "semantic"
+            this.set('task.count', -1);
+          });
+        }
+      }
+
+      _computeBadgeLabel(count) {
+        if (count === undefined) {
+          return '\u22EF';
+        }
+        if (count === -1) {
+          return '?';
+        }
+        if (count === 0) {
+          return '';
+        }
+        return String(count);
+      }
+
+      _computeBadgeClass(count) {
+        if (count === undefined) {
+          return '';
+        }
+        if (count === -1) {
+          return 'broken';
+        }
+        if (count === 0) {
+          return 'pass';
+        }
+        return 'fail';
+      }
+    }
+
+    customElements.define(RotationTask.is, RotationTask);
+  </script>
+</dom-module>

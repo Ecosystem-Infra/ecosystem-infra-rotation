@@ -1,0 +1,30 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="./rotation-task.html">
+
+<dom-module id="rotation-task-group">
+  <template>
+    <section>
+      <h1>[[name]]</h1>
+      <template is='dom-repeat' as='task' items='[[tasks]]'>
+        <rotation-task task='[[task]]'></rotation-task>
+      </template>
+    </section>
+  </template>
+
+  <script>
+    class RotationTaskGroup extends Polymer.Element {
+      static get is() {
+        return 'rotation-task-group';
+      }
+
+      static get properties() {
+        return {
+          name: String,
+          tasks: Array,
+        }
+      }
+    }
+
+    customElements.define(RotationTaskGroup.is, RotationTaskGroup);
+  </script>
+</dom-module>

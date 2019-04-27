@@ -1,0 +1,234 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/paper-styles/typography.html">
+<link rel="import" href="./rotation-task-group.html">
+
+<dom-module id="ecosystem-infra-rotation">
+  <template>
+    <style>
+      :host {
+        @apply(--paper-font-common-base);
+      }
+      footer {
+        margin-top: 4em;
+      }
+    </style>
+    <template is='dom-repeat' as='group' items='[[groups]]'>
+      <rotation-task-group name='[[group.name]]' tasks='[[group.tasks]]'></rotation-task-group>
+    </template>
+    <footer>
+      <p>
+        <b>Usage</b>: Make all the circles green by following the expandable instructions.<br>
+        Please improve or file bugs on <a href="https://github.com/foolip/ecosystem-infra-rotation">GitHub</a>!
+      </p>
+    </footer>
+  </template>
+  <script>
+    async function fetchJSON(url, init) {
+      // Bypass cache by default since gitub.io caches too much.
+      const initWithCache = Object.assign({ cache: 'no-store' }, init);
+      const response = await fetch(url, initWithCache);
+      if (!response.ok) {
+        throw new Error(`${url} response has status ${response.status}`);
+      }
+      return response.json();
+    }
+
+    function minutesAgo(minutes) {
+      const date = new Date(Date.now() - minutes * 60000);
+      // Drop the milliseconds part of the string, since GitHub doesn't support it:
+      // https://help.github.com/articles/understanding-the-search-syntax/#query-for-dates
+      return date.toISOString().replace(/\.\d\d\dZ$/, 'Z');
+    }
+
+    function daysAgo(days) {
+      return minutesAgo(days * 1440).substr(0, 10);
+    }
+
+    function githubTask(info) {
+      // These two URLs for the API and the website should be in sync, different views of the same data.
+      const BASE_API_URL = "https://api.github.com/search/issues?q=repo%3Aweb-platform-tests%2Fwpt%20";
+      const BASE_WEB_URL = "https://github.com/web-platform-tests/wpt/issues?q=";
+
+      const apiURL = `${BASE_API_URL}${encodeURIComponent(info.query)}`;
+      const webURL = `${BASE_WEB_URL}${encodeURIComponent(info.query)}`;
+
+      // Extract GitHub API token from #GH_TOKEN=abcdef
+      let init;
+      if (location.hash) {
+        const token = new URLSearchParams(location.hash.substr(1)).get('GH_TOKEN');
+        if (token) {
+          init = { headers: { 'Authorization': `token ${token}` } };
+        }
+      }
+
+      return {
+        name: info.name,
+        href: webURL,
+        status: fetchJSON(apiURL, init).then(r => r.total_count),
+        docs: info.docs,
+      };
+    }
+
+    function importExportTask(kind, docs) {
+      let task = {
+        name: `${kind}er status`,
+        status: fetchJSON(`${kind}.json`).then(builds => {
+          const ms_since_last_success = Date.now() - Date.parse(builds.last_success);
+          // flag more than one failure in a row
+          if (builds.recent_failures > 1) {
+            return builds.recent_failures;
+          }
+          // flag no success in past 12 hours
+          if (ms_since_last_success > 12*3600*1000) {
+            // TODO: include a status message with the failures, not just a count.
+            return -1;
+          }
+          return 0;
+        }),
+        docs: `${kind}.md`,
+      };
+      task.href = `https://ci.chromium.org/p/infra/builders/luci.infra.cron/wpt-${kind}er`;
+      return task;
+    }
+
+    // single fetch that will be shared by tasks
+    const crbugJSON = fetchJSON('crbug.json');
+
+    function crbugTask(info) {
+      const BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
+
+      return {
+        name: info.name,
+        href: `${BASE_URL}${encodeURIComponent(info.query)}`,
+        status: crbugJSON.then(async results => {
+          return results[info.query].totalResults;
+        }),
+        docs: info.docs,
+      };
+    }
+
+    function fyiTask(info) {
+      const apiURL = `https://wpt.fyi/api/runs?${info.query}&max-count=1`;
+      const webURL = `https://wpt.fyi/runs?${info.query}`;
+
+      return {
+        name: `${info.name} runs`,
+        href: webURL,
+        status: fetchJSON(apiURL).then(runs => {
+          let numOldRuns = 0;
+          for (const run of runs) {
+            const runAge = Date.now() - Date.parse(run.time_end);
+            if (runAge > info.maxAge*1000) {
+              numOldRuns++;
+            }
+          }
+          return numOldRuns;
+        }),
+        docs: info.docs,
+      };
+    }
+
+    class EcosystemInfraRotation extends Polymer.Element {
+      static get is() {
+        return 'ecosystem-infra-rotation';
+      }
+
+      static get properties() {
+        return {
+          groups: Array,
+        };
+      }
+
+      ready() {
+        super.ready();
+
+        const twoWaySyncTasks = [
+          importExportTask('import'),
+          importExportTask('export'),
+          githubTask({
+            name: 'blocked export PRs',
+            query: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`,
+            docs: 'blocked-export.md',
+          }),
+        ];
+
+        const wptInfraTaskInfo = [
+          {
+            name: 'untriaged issues',
+            query: 'is:issue is:open label:infra -label:priority:backlog -label:priority:roadmap -label:priority:urgent',
+            docs: 'wpt-untriaged.md',
+          },
+          {
+            name: 'urgent issues >2 days',
+            query: `is:issue is:open label:infra label:priority:urgent updated:<${daysAgo(2)} sort:updated-asc`,
+            docs: 'wpt-urgent.md',
+          },
+          {
+            name: 'roadmap issues >60 days',
+            query: `is:issue is:open label:infra label:priority:roadmap updated:<${daysAgo(60)} sort:updated-asc`,
+            docs: 'wpt-roadmap.md',
+          },
+        ];
+
+        const blinkInfraTaskInfo = [
+          {
+            name: 'untriaged issues',
+            query: 'component:Blink>Infra status:Unconfirmed,Untriaged',
+            docs: 'blink-untriaged.md',
+          },
+          {
+            name: 'P0 issues >2 days',
+            query: 'component:Blink>Infra Pri=0 modified<today-2',
+            docs: 'blink-p0.md',
+          },
+          {
+            name: 'P1 issues >30 days',
+            query: 'component:Blink>Infra Pri=1 modified<today-30',
+            docs: 'blink-p1.md',
+          },
+          {
+            name: 'P2 issues >60 days',
+            query: 'component:Blink>Infra Pri=2 modified<today-60',
+            docs: 'blink-p2.md',
+          },
+        ];
+
+        const fyiTaskInfo = [
+          {
+            name: 'stable',
+            query: 'label=stable&products=chrome,edge,firefox,safari',
+            maxAge: 24*3600,
+            docs: 'wpt.fyi-stable.md',
+          },
+          {
+            name: 'experimental',
+            query: 'label=experimental&products=chrome,firefox,safari', // no Edge
+            maxAge: 24*3600,
+            docs: 'wpt.fyi-experimental.md',
+          },
+        ];
+
+        this.groups = [
+          {
+            name: '2-way sync',
+            tasks: twoWaySyncTasks,
+          },
+          {
+            name: 'wpt infra issue triage',
+            tasks: wptInfraTaskInfo.map(githubTask),
+          },
+          {
+            name: 'Blink>Infra issue triage',
+            tasks: blinkInfraTaskInfo.map(crbugTask),
+          },
+          {
+            name: 'wpt.fyi',
+            tasks: fyiTaskInfo.map(fyiTask),
+          }
+        ];
+      }
+    }
+
+    customElements.define(EcosystemInfraRotation.is, EcosystemInfraRotation);
+  </script>
+</dom-module>
