@@ -1384,7 +1384,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/984414433",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "nzolghadr@chromium.org"
           },
           {
@@ -1415,7 +1415,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/984414433",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "nzolghadr@chromium.org"
         },
         "owner_modified": "2018-07-24T15:31:35",
@@ -3729,7 +3729,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/984414433",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "nzolghadr@chromium.org"
         },
         "blocking": [
@@ -4851,7 +4851,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/984414433",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "nzolghadr@chromium.org"
           },
           {
@@ -4882,7 +4882,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/984414433",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "nzolghadr@chromium.org"
         },
         "owner_modified": "2018-07-24T15:31:35",
