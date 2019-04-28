@@ -1565,7 +1565,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2312966084",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
+            "last_visit_days_ago": "4",
             "name": "rockot@google.com"
           },
           {
@@ -2303,7 +2303,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2801085551",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "2",
             "name": "dalecurtis@chromium.org"
           },
           {
