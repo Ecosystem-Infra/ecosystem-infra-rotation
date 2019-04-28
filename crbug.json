@@ -1655,7 +1655,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1506398752",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "nednguyen@chromium.org"
           },
           {
@@ -3810,7 +3810,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/356701551",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "502",
+            "last_visit_days_ago": "503",
             "name": "tansell@chromium.org"
           },
           {
