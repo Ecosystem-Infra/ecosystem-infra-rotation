@@ -1054,7 +1054,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3584865153",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "thakis@chromium.org",
             "vacation_message": "flaky availability apri 22-26"
           },
@@ -4186,7 +4186,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3584865153",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "thakis@chromium.org",
             "vacation_message": "flaky availability apri 22-26"
           },
@@ -4268,7 +4268,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3584865153",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "thakis@chromium.org",
             "vacation_message": "flaky availability apri 22-26"
           }
