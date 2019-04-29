@@ -794,7 +794,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2621302795",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "2",
           "name": "ellyjones@chromium.org"
         },
         "owner_modified": "2018-12-05T14:36:29",
@@ -1040,7 +1040,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2621302795",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "2",
             "name": "ellyjones@chromium.org"
           },
           {
@@ -3309,7 +3309,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2621302795",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "2",
           "name": "ellyjones@chromium.org"
         },
         "canComment": true,
