@@ -1284,7 +1284,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1026354870",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "12",
+          "last_visit_days_ago": "13",
           "name": "yuzus@chromium.org"
         },
         "owner_modified": "2018-09-25T21:00:07",
@@ -2508,7 +2508,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1026354870",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "12",
+            "last_visit_days_ago": "13",
             "name": "yuzus@chromium.org"
           }
         ],
