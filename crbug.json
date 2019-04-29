@@ -2662,6 +2662,39 @@
         },
         "canComment": true,
         "canEdit": true,
+        "component_modified": "2018-04-26T16:20:44",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 837273,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2018-04-26T16:20:44",
+        "projectId": "chromium",
+        "published": "2018-04-26T16:20:44",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-04-29T15:47:05",
+        "summary": "Automatically add Blink try jobs to some CLs to provide more layout tests coverage",
+        "title": "Automatically add Blink try jobs to some CLs to provide more layout tests coverage",
+        "updated": "2019-04-29T15:47:05"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
         "cc": [
           {
             "email_bouncing": false,
@@ -4297,7 +4330,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 35
+    "totalResults": 36
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
