@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/b/8914843378353798848",
+      "duration": "3 hrs 48 mins",
+      "info": "Step('Import changes from WPT to Chromium') failed with return_code 1",
+      "result": "Failed",
+      "time": "Monday, 29-Apr-19 15:59:49 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/b/8914862401671048192",
       "duration": "5 hrs 1 mins",
       "info": "",
@@ -1392,15 +1399,8 @@
       "info": "Step('Import changes from WPT to Chromium') failed with return_code 1",
       "result": "Failed",
       "time": "Tuesday, 23-Apr-19 20:00:08 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/b/8915358239849846528",
-      "duration": "7 mins 43 secs",
-      "info": "",
-      "result": "Success",
-      "time": "Tuesday, 23-Apr-19 19:55:21 UTC"
     }
   ],
   "last_success": "Thursday, 25-Apr-19 16:37:46 UTC",
-  "recent_failures": 27
+  "recent_failures": 28
 }
