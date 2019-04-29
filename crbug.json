@@ -1572,7 +1572,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2342516889",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "odejesush@chromium.org"
           },
           {
@@ -2338,7 +2338,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3513467790",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "crouleau@chromium.org"
           },
           {
