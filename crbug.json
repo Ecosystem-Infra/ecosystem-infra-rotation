@@ -1098,6 +1098,54 @@
       },
       {
         "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2018-05-21T19:02:43",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 845232,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-2",
+          "Type-Feature"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
+        "owner_modified": "2018-05-21T19:02:43",
+        "projectId": "chromium",
+        "published": "2018-05-21T19:02:43",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Started",
+        "status_modified": "2019-01-08T20:35:16",
+        "summary": "[WPT] Enable import notification by default (opt-in -> opt-out)",
+        "title": "[WPT] Enable import notification by default (opt-in -> opt-out)",
+        "updated": "2019-01-08T20:49:33"
+      },
+      {
+        "author": {
           "email_bouncing": true,
           "htmlLink": "https://bugs.chromium.org/u/2001183601",
           "kind": "monorail#issuePerson",
@@ -1676,6 +1724,100 @@
         "summary": "webkit_unit_tests on tryserver.chromium.android android_blink_rel builder very flaky",
         "title": "webkit_unit_tests on tryserver.chromium.android android_blink_rel builder very flaky",
         "updated": "2018-11-13T10:14:56"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2779573485",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "dpranke@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 835690,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1102809179",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "rmhasan@google.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "35",
+            "name": "qyearsley@chromium.org",
+            "vacation_message": "OOO til May 21"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1685932805",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "seanmccullough@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2019-01-10T23:29:17",
+        "components": [
+          "Blink>Infra",
+          "Build",
+          "Test>WebTests"
+        ],
+        "id": 807751,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2",
+          "Build-Tools-TYP"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3934801634",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "3",
+          "name": "estaab@chromium.org"
+        },
+        "owner_modified": "2019-01-10T23:05:50",
+        "projectId": "chromium",
+        "published": "2018-01-31T21:32:12",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2019-01-11T23:00:11",
+        "summary": "Switch the layout tests to the new test expectations format",
+        "title": "Switch the layout tests to the new test expectations format",
+        "updated": "2019-01-11T23:00:11"
       },
       {
         "author": {
@@ -2382,7 +2524,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 32
+    "totalResults": 34
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
