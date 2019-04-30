@@ -3537,6 +3537,64 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/339614835",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "pdr@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "35",
+            "name": "qyearsley@chromium.org",
+            "vacation_message": "OOO til May 21"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1752111342",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "110",
+            "name": "dnj@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          }
+        ],
+        "component_modified": "2017-06-18T20:05:21",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 734422,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Type-Bug-Regression",
+          "OS-Mac"
+        ],
+        "owner_modified": "2017-06-18T20:05:21",
+        "projectId": "chromium",
+        "published": "2017-06-18T20:05:21",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2018-12-17T17:04:18",
+        "summary": "Running WPT tests pops up dialogs asking for python network connection permissions",
+        "title": "Running WPT tests pops up dialogs asking for python network connection permissions",
+        "updated": "2018-12-17T17:04:18"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "35",
@@ -4022,6 +4080,50 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "35",
+          "name": "qyearsley@chromium.org",
+          "vacation_message": "OOO til May 21"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3934801634",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "estaab@chromium.org"
+          }
+        ],
+        "component_modified": "2018-03-13T20:07:14",
+        "components": [
+          "Blink>Infra",
+          "Infra>Flakiness>Dashboard"
+        ],
+        "id": 655202,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2016-10-12T17:12:36",
+        "projectId": "chromium",
+        "published": "2016-10-12T17:12:36",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-03-14T16:02:58",
+        "summary": "Stop uploading failing_results.json, just upload full_results.json.",
+        "title": "Stop uploading failing_results.json, just upload full_results.json.",
+        "updated": "2019-03-14T16:02:58"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3267981708",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -4391,7 +4493,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 35
+    "totalResults": 37
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
