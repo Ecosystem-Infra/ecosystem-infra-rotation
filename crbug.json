@@ -2389,61 +2389,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2953869830",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "5",
-          "name": "cblume@google.com"
-        },
-        "blocking": [
-          {
-            "issueId": 954994,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          }
-        ],
-        "component_modified": "2019-04-24T07:01:33",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 955929,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2019-04-24T19:56:12",
-        "projectId": "chromium",
-        "published": "2019-04-24T07:01:33",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-04-24T07:01:33",
-        "summary": "blink_tools.py rebaseline-cl crashing, not noticing failing bots ",
-        "title": "blink_tools.py rebaseline-cl crashing, not noticing failing bots ",
-        "updated": "2019-04-25T21:38:35"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -4364,7 +4309,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 37
+    "totalResults": 36
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
