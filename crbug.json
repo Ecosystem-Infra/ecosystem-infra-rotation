@@ -1529,7 +1529,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/770471953",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "237",
+            "last_visit_days_ago": "238",
             "name": "kereliuk@chromium.org"
           },
           {
@@ -3767,7 +3767,8 @@
             "htmlLink": "https://bugs.chromium.org/u/2057383901",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
-            "name": "blundell@chromium.org"
+            "name": "blundell@chromium.org",
+            "vacation_message": "OOO until May 2"
           },
           {
             "email_bouncing": false,
