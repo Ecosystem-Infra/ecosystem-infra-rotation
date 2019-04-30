@@ -4059,6 +4059,99 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "35",
+          "name": "qyearsley@chromium.org",
+          "vacation_message": "OOO til May 21"
+        },
+        "blockedOn": [
+          {
+            "issueId": 739522,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "blocking": [
+          {
+            "issueId": 725160,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "35",
+            "name": "qyearsley@chromium.org",
+            "vacation_message": "OOO til May 21"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1459596405",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "raphael.kubo.da.costa@intel.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:18:17",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 674692,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2016-12-15T20:45:17",
+        "projectId": "chromium",
+        "published": "2016-12-15T20:45:17",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-04-30T15:48:18",
+        "summary": "[WPT import] DCHECK enabled for CQ bots but not for Blink try bots.",
+        "title": "[WPT import] DCHECK enabled for CQ bots but not for Blink try bots.",
+        "updated": "2019-04-30T15:48:18"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3517862689",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "3",
@@ -4559,7 +4652,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 38
+    "totalResults": 39
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -5800,9 +5893,102 @@
         "summary": "Document ready state and image onload may precede actual image load",
         "title": "Document ready state and image onload may precede actual image load",
         "updated": "2019-04-08T19:07:08"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1322892317",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "35",
+          "name": "qyearsley@chromium.org",
+          "vacation_message": "OOO til May 21"
+        },
+        "blockedOn": [
+          {
+            "issueId": 739522,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "blocking": [
+          {
+            "issueId": 725160,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "35",
+            "name": "qyearsley@chromium.org",
+            "vacation_message": "OOO til May 21"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1459596405",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "raphael.kubo.da.costa@intel.com"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1939658455",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jeffcarp@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "foolip@chromium.org"
+          }
+        ],
+        "component_modified": "2017-07-03T14:18:17",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 674692,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2016-12-15T20:45:17",
+        "projectId": "chromium",
+        "published": "2016-12-15T20:45:17",
+        "starred": false,
+        "stars": 3,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-04-30T15:48:18",
+        "summary": "[WPT import] DCHECK enabled for CQ bots but not for Blink try bots.",
+        "title": "[WPT import] DCHECK enabled for CQ bots but not for Blink try bots.",
+        "updated": "2019-04-30T15:48:18"
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 7
+    "totalResults": 8
   }
 }
