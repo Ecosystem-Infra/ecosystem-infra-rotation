@@ -2076,6 +2076,148 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2884559008",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "4",
+          "name": "tdresser@chromium.org"
+        },
+        "blockedOn": [
+          {
+            "issueId": 831653,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "blocking": [
+          {
+            "issueId": 863599,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 867982,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          },
+          {
+            "issueId": 882756,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/169896232",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "flackr@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/266225177",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "panicker@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/984414433",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "nzolghadr@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1364632131",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "rbyers@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1601924823",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "npm@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2182922724",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dtapuska@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2691429787",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "enne@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2884559008",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "4",
+            "name": "tdresser@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3195081326",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "6",
+            "name": "foolip@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3979337595",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "6",
+            "name": "lanwei@chromium.org"
+          }
+        ],
+        "component_modified": "2017-09-29T03:37:57",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 770028,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3195081326",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "6",
+          "name": "foolip@chromium.org"
+        },
+        "owner_modified": "2018-12-05T16:55:19",
+        "projectId": "chromium",
+        "published": "2017-09-29T03:37:57",
+        "starred": false,
+        "stars": 5,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-08-17T14:29:12",
+        "summary": "Enable threaded compositing by default in Web Platform Tests",
+        "title": "Enable threaded compositing by default in Web Platform Tests",
+        "updated": "2019-03-01T01:22:15"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3195081326",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "6",
@@ -2233,7 +2375,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/819732701",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "110",
+            "last_visit_days_ago": "111",
             "name": "yihongg@chromium.org"
           },
           {
@@ -2382,7 +2524,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 33
+    "totalResults": 34
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
