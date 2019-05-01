@@ -2424,7 +2424,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2564229424",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "bsheedy@chromium.org"
           },
           {
