@@ -2586,58 +2586,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1151644111",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "wangxianzhu@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "37",
-            "name": "qyearsley@chromium.org",
-            "vacation_message": "OOO til May 21"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2019-03-23T04:27:50",
-        "components": [
-          "Blink>Infra",
-          "Test>WebTests"
-        ],
-        "id": 945085,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "OS-Mac",
-          "Test-WebTest"
-        ],
-        "owner_modified": "2019-03-23T04:27:50",
-        "projectId": "chromium",
-        "published": "2019-03-23T04:27:50",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-03-23T04:27:50",
-        "summary": "Web Test printing/composited-thead-tfoot-repeat.html is failing on Mac10.13 (wrong baseline selection?)",
-        "title": "Web Test printing/composited-thead-tfoot-repeat.html is failing on Mac10.13 (wrong baseline selection?)",
-        "updated": "2019-03-23T04:33:13"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1014188007",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "1",
@@ -2717,40 +2665,6 @@
         "summary": "run_web_tests.py shows incorrect unexpected failure.",
         "title": "run_web_tests.py shows incorrect unexpected failure.",
         "updated": "2019-01-28T19:58:26"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1931360713",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "thestig@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2019-01-25T16:57:20",
-        "components": [
-          "Blink>Infra",
-          "Test>WebTests"
-        ],
-        "id": 916335,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Windows",
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner_modified": "2018-12-19T00:23:05",
-        "projectId": "chromium",
-        "published": "2018-12-19T00:23:05",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-19T00:23:05",
-        "summary": "100+ layout tests occasioanlly failing on WebKit Win10",
-        "title": "100+ layout tests occasioanlly failing on WebKit Win10",
-        "updated": "2019-01-25T16:57:20"
       },
       {
         "author": {
@@ -3365,63 +3279,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1791796542",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "6",
-          "name": "fmalita@chromium.org"
-        },
-        "blockedOn": [
-          {
-            "issueId": 774179,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "37",
-            "name": "qyearsley@chromium.org",
-            "vacation_message": "OOO til May 21"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-09-20T17:45:06",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 767106,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-10-12T18:41:48",
-        "projectId": "chromium",
-        "published": "2017-09-20T17:45:06",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-01-11T17:04:11",
-        "summary": "rebaseline-cl should not re-trigger try jobs for commit message updates",
-        "title": "rebaseline-cl should not re-trigger try jobs for commit message updates",
-        "updated": "2019-01-11T17:04:11"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1322892317",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "37",
@@ -3512,79 +3369,6 @@
         "summary": "Change \"chromium_revision\" in layout test json results to commit position number only",
         "title": "Change \"chromium_revision\" in layout test json results to commit position number only",
         "updated": "2018-12-18T17:04:01"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1423739800",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
-          "name": "bsep@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "37",
-            "name": "qyearsley@chromium.org",
-            "vacation_message": "OOO til May 21"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2694177054",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "4",
-            "name": "pcc@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2716209761",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "360",
-            "name": "mcgreevy@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4006160393",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jbudorick@chromium.org"
-          }
-        ],
-        "component_modified": "2018-02-21T18:26:53",
-        "components": [
-          "Blink>Infra",
-          "Infra>Client>Chrome"
-        ],
-        "id": 740277,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-12-18T14:52:56",
-        "projectId": "chromium",
-        "published": "2017-07-07T23:09:46",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-04-30T15:46:58",
-        "summary": "Webkit Linux Trusty MSAN stacktraces do not have symbols",
-        "title": "Webkit Linux Trusty MSAN stacktraces do not have symbols",
-        "updated": "2019-04-30T15:46:58"
       },
       {
         "author": {
@@ -4752,140 +4536,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2283606655",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "jbroman@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "37",
-            "name": "qyearsley@chromium.org",
-            "vacation_message": "OOO til May 21"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          }
-        ],
-        "component_modified": "2015-08-28T17:29:45",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 526188,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "Stability-Memory-MemorySanitizer"
-        ],
-        "owner_modified": "2015-08-28T17:29:45",
-        "projectId": "chromium",
-        "published": "2015-08-28T17:29:45",
-        "starred": false,
-        "stars": 4,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-01-11T17:04:23",
-        "summary": "Feature Request: ASAN/MSAN/etc. CQ bots run webkit_tests.",
-        "title": "Feature Request: ASAN/MSAN/etc. CQ bots run webkit_tests.",
-        "updated": "2019-01-11T17:04:23"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/88915427",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "danakj@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 352046,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/113376574",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
-            "name": "jochen@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/936598639",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "14",
-            "name": "ajwong@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3584865153",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "thakis@chromium.org",
-            "vacation_message": "flaky availability apri 22-26"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3957595039",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "mark@chromium.org"
-          }
-        ],
-        "component_modified": "2014-05-02T19:37:12",
-        "components": [
-          "Blink>Infra",
-          "Internals>CrashReporting"
-        ],
-        "id": 369608,
-        "kind": "monorail#issue",
-        "labels": [
-          "Hotlist-Recharge",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "OS-All",
-          "Test-Layout"
-        ],
-        "owner_modified": "2018-01-02T17:49:00",
-        "projectId": "chromium",
-        "published": "2014-05-02T19:37:12",
-        "starred": false,
-        "stars": 6,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-03-29T16:03:15",
-        "summary": "Missing crash stack on reftest? Breakpad doesn\u2019t support linux_use_debug_fission (-gsplit-dwarf).",
-        "title": "Missing crash stack on reftest? Breakpad doesn\u2019t support linux_use_debug_fission (-gsplit-dwarf).",
-        "updated": "2019-03-29T16:03:15"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3358727237",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "12",
@@ -4956,7 +4606,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 45
+    "totalResults": 39
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
