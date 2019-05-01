@@ -506,7 +506,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3361936865",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "6",
+          "last_visit_days_ago": "7",
           "name": "jyasskin@google.com"
         },
         "canComment": true,
