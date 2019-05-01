@@ -6085,56 +6085,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "36",
-          "name": "qyearsley@chromium.org",
-          "vacation_message": "OOO til May 21"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1939658455",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jeffcarp@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-07-03T14:18:21",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 730047,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-07-26T23:22:46",
-        "projectId": "chromium",
-        "published": "2017-06-06T16:10:43",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-02-14T17:03:29",
-        "summary": "[WPT import] When removing expectation lines for deleted tests, virtual tests aren't removed",
-        "title": "[WPT import] When removing expectation lines for deleted tests, virtual tests aren't removed",
-        "updated": "2019-02-14T17:03:29"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/4187517203",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -6286,6 +6236,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 7
   }
 }
