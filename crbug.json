@@ -2545,6 +2545,13 @@
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
             "name": "chanli@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3934801634",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "estaab@chromium.org"
           }
         ],
         "component_modified": "2019-05-01T17:50:03",
@@ -2574,7 +2581,7 @@
         "status_modified": "2019-05-01T17:50:03",
         "summary": "Test retry did not stop when the test passed the first time",
         "title": "Test retry did not stop when the test passed the first time",
-        "updated": "2019-05-01T18:52:28"
+        "updated": "2019-05-01T19:01:55"
       },
       {
         "author": {
