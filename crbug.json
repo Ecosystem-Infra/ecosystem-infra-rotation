@@ -2581,7 +2581,7 @@
         "status_modified": "2019-05-01T17:50:03",
         "summary": "Test retry did not stop when the test passed the first time",
         "title": "Test retry did not stop when the test passed the first time",
-        "updated": "2019-05-01T19:21:12"
+        "updated": "2019-05-01T19:27:04"
       },
       {
         "author": {
@@ -4830,7 +4830,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/936598639",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "13",
+            "last_visit_days_ago": "14",
             "name": "ajwong@chromium.org"
           },
           {
