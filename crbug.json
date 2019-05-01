@@ -2538,6 +2538,15 @@
         },
         "canComment": true,
         "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1439056490",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "chanli@chromium.org"
+          }
+        ],
         "component_modified": "2019-05-01T17:50:03",
         "components": [
           "Blink>Infra"
@@ -2565,7 +2574,7 @@
         "status_modified": "2019-05-01T17:50:03",
         "summary": "Test retry did not stop when the test passed the first time",
         "title": "Test retry did not stop when the test passed the first time",
-        "updated": "2019-05-01T17:50:03"
+        "updated": "2019-05-01T18:39:57"
       },
       {
         "author": {
