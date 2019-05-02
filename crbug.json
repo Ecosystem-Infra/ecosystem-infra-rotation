@@ -1055,8 +1055,7 @@
             "htmlLink": "https://bugs.chromium.org/u/3584865153",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
-            "name": "thakis@chromium.org",
-            "vacation_message": "flaky availability apri 22-26"
+            "name": "thakis@chromium.org"
           },
           {
             "email_bouncing": false,
@@ -4544,6 +4543,78 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1151644111",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wangxianzhu@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/339614835",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "pdr@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1151644111",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "wangxianzhu@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "37",
+            "name": "qyearsley@chromium.org",
+            "vacation_message": "OOO til May 21"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2779573485",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "dpranke@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/4187598447",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "266",
+            "name": "wkorman@chromium.org"
+          }
+        ],
+        "component_modified": "2015-10-22T21:41:17",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 546746,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-3",
+          "Hotlist-Recharge-Cold",
+          "Test-Layout"
+        ],
+        "owner_modified": "2016-06-17T17:20:02",
+        "projectId": "chromium",
+        "published": "2015-10-22T21:41:17",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2016-06-17T17:20:02",
+        "summary": "Out-dated expectation files for tests skipped on some platforms caused by rebaseline",
+        "title": "Out-dated expectation files for tests skipped on some platforms caused by rebaseline",
+        "updated": "2018-04-18T16:12:03"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1451565881",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -4716,8 +4787,7 @@
             "htmlLink": "https://bugs.chromium.org/u/3584865153",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
-            "name": "thakis@chromium.org",
-            "vacation_message": "flaky availability apri 22-26"
+            "name": "thakis@chromium.org"
           },
           {
             "email_bouncing": false,
@@ -4798,8 +4868,7 @@
             "htmlLink": "https://bugs.chromium.org/u/3584865153",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
-            "name": "thakis@chromium.org",
-            "vacation_message": "flaky availability apri 22-26"
+            "name": "thakis@chromium.org"
           }
         ],
         "component_modified": "2013-08-23T23:05:56",
@@ -4827,7 +4896,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 43
+    "totalResults": 44
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
