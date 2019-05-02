@@ -3461,79 +3461,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1423739800",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
-          "name": "bsep@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "37",
-            "name": "qyearsley@chromium.org",
-            "vacation_message": "OOO til May 21"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2694177054",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "5",
-            "name": "pcc@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2716209761",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "360",
-            "name": "mcgreevy@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/4006160393",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jbudorick@chromium.org"
-          }
-        ],
-        "component_modified": "2018-02-21T18:26:53",
-        "components": [
-          "Blink>Infra",
-          "Infra>Client>Chrome"
-        ],
-        "id": 740277,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-12-18T14:52:56",
-        "projectId": "chromium",
-        "published": "2017-07-07T23:09:46",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-04-30T15:46:58",
-        "summary": "Webkit Linux Trusty MSAN stacktraces do not have symbols",
-        "title": "Webkit Linux Trusty MSAN stacktraces do not have symbols",
-        "updated": "2019-04-30T15:46:58"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2621302795",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -4901,7 +4828,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 44
+    "totalResults": 43
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
