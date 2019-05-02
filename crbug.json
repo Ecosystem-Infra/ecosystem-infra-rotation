@@ -4717,69 +4717,6 @@
       },
       {
         "author": {
-          "email_bouncing": true,
-          "htmlLink": "https://bugs.chromium.org/u/3895802",
-          "kind": "monorail#issuePerson",
-          "name": "joelo@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/88961009",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "noel@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/719046034",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "384",
-            "name": "leviw@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2016800091",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jsbell@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          }
-        ],
-        "component_modified": "2015-06-17T22:16:49",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 501563,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "OS-Mac"
-        ],
-        "owner_modified": "2016-02-08T05:12:42",
-        "projectId": "chromium",
-        "published": "2015-06-17T22:16:49",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-05-02T15:48:42",
-        "summary": "Implement mock render theme for Mac",
-        "title": "Implement mock render theme for Mac",
-        "updated": "2019-05-02T15:48:42"
-      },
-      {
-        "author": {
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/65349139",
           "kind": "monorail#issuePerson",
@@ -4973,7 +4910,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 46
+    "totalResults": 45
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
