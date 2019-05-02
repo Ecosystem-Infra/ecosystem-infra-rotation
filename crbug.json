@@ -2584,7 +2584,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1014188007",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
+          "last_visit_days_ago": "0",
           "name": "xiaochengh@chromium.org"
         },
         "canComment": true,
@@ -4079,7 +4079,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3517862689",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "carlosk@chromium.org"
         },
         "canComment": true,
