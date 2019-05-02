@@ -735,7 +735,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3767896538",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
+          "last_visit_days_ago": "0",
           "name": "lindsayw@chromium.org"
         },
         "blocking": [
