@@ -138,7 +138,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/189620131",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "mkwst@chromium.org",
             "vacation_message": "OOO until end of April. Happy Easter!"
           },
