@@ -885,7 +885,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/472221124",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
+            "last_visit_days_ago": "8",
             "name": "yhirano@chromium.org",
             "vacation_message": "away between 4/26 and 5/6"
           },
@@ -4096,7 +4096,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/472221124",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
+            "last_visit_days_ago": "8",
             "name": "yhirano@chromium.org",
             "vacation_message": "away between 4/26 and 5/6"
           },
@@ -4427,7 +4427,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/472221124",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
+            "last_visit_days_ago": "8",
             "name": "yhirano@chromium.org",
             "vacation_message": "away between 4/26 and 5/6"
           },
