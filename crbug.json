@@ -5170,61 +5170,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
-          "name": "kyleju@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 869360,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2018-10-03T21:44:16",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 891897,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-2",
-          "Type-Feature"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1710846683",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
-          "name": "kyleju@chromium.org"
-        },
-        "owner_modified": "2018-10-03T21:44:16",
-        "projectId": "chromium",
-        "published": "2018-10-03T21:44:16",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2018-10-03T21:45:19",
-        "summary": "[WPT] Refactoring wpt_expectations_updater.py using text expectations parser",
-        "title": "[WPT] Refactoring wpt_expectations_updater.py using text expectations parser",
-        "updated": "2018-11-28T19:11:36"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1459596405",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -5512,74 +5457,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/777339296",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "smcgruer@chromium.org"
-        },
-        "blocking": [
-          {
-            "issueId": 699244,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          },
-          {
-            "issueId": 805463,
-            "kind": "monorail#issueRef",
-            "projectId": "chromium"
-          }
-        ],
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/777339296",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "smcgruer@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3195081326",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
-            "name": "foolip@chromium.org"
-          }
-        ],
-        "component_modified": "2018-01-31T18:20:02",
-        "components": [
-          "Blink>Infra",
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 807627,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-2"
-        ],
-        "owner": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "owner_modified": "2018-01-31T15:18:04",
-        "projectId": "chromium",
-        "published": "2018-01-31T15:18:04",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Assigned",
-        "status_modified": "2018-01-31T18:20:02",
-        "summary": "[WPT] jsharness tests being mistakenly interpreted as reftests",
-        "title": "[WPT] jsharness tests being mistakenly interpreted as reftests",
-        "updated": "2018-11-16T13:51:20"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -5813,7 +5690,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 15
+    "totalResults": 13
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "items": [
