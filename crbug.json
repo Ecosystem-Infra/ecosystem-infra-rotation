@@ -2530,47 +2530,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2651300151",
-          "kind": "monorail#issuePerson",
-          "name": "findit-for-me@appspot.gserviceaccount.com"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2019-05-03T20:25:20",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "fieldValues": [
-          {
-            "derived": false,
-            "fieldName": "Flaky-Test",
-            "fieldValue": "external/wpt/import-maps/fallback.sub.tentative.html"
-          }
-        ],
-        "id": 959372,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Test-Flaky",
-          "Type-Bug",
-          "Sheriff-Chromium",
-          "Test-Findit-Detected"
-        ],
-        "owner_modified": "2019-05-03T20:25:20",
-        "projectId": "chromium",
-        "published": "2019-05-03T20:25:20",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-05-03T20:25:20",
-        "summary": "external/wpt/import-maps/fallback.sub.tentative.html is flaky",
-        "title": "external/wpt/import-maps/fallback.sub.tentative.html is flaky",
-        "updated": "2019-05-03T20:25:20"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -5029,7 +4988,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 48
+    "totalResults": 47
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
@@ -5939,47 +5898,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2651300151",
-          "kind": "monorail#issuePerson",
-          "name": "findit-for-me@appspot.gserviceaccount.com"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2019-05-03T20:25:20",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "fieldValues": [
-          {
-            "derived": false,
-            "fieldName": "Flaky-Test",
-            "fieldValue": "external/wpt/import-maps/fallback.sub.tentative.html"
-          }
-        ],
-        "id": 959372,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-1",
-          "Test-Flaky",
-          "Type-Bug",
-          "Sheriff-Chromium",
-          "Test-Findit-Detected"
-        ],
-        "owner_modified": "2019-05-03T20:25:20",
-        "projectId": "chromium",
-        "published": "2019-05-03T20:25:20",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-05-03T20:25:20",
-        "summary": "external/wpt/import-maps/fallback.sub.tentative.html is flaky",
-        "title": "external/wpt/import-maps/fallback.sub.tentative.html is flaky",
-        "updated": "2019-05-03T20:25:20"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1471347113",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -6407,6 +6325,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 9
+    "totalResults": 8
   }
 }
