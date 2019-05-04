@@ -1550,7 +1550,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1572007341",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "bajones@chromium.org"
           },
           {
@@ -2493,7 +2493,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/4293160786",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
+            "last_visit_days_ago": "1",
             "name": "drott@chromium.org"
           }
         ],
@@ -4995,8 +4995,58 @@
     "totalResults": 0
   },
   "component:Blink>Infra>Ecosystem Pri=1 modified<today-30": {
+    "items": [
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1710846683",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "kyleju@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/665198580",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "3",
+            "name": "dpranke@google.com"
+          }
+        ],
+        "component_modified": "2019-02-06T20:18:08",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 929147,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1710846683",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "2",
+          "name": "kyleju@chromium.org"
+        },
+        "owner_modified": "2019-02-06T16:15:19",
+        "projectId": "chromium",
+        "published": "2019-02-06T16:15:19",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Started",
+        "status_modified": "2019-02-06T16:15:19",
+        "summary": "Investigate Chrome date_dep on mac and win for .BUILD.ng",
+        "title": "Investigate Chrome date_dep on mac and win for .BUILD.ng",
+        "updated": "2019-03-25T14:12:15"
+      }
+    ],
     "kind": "monorail#issueList",
-    "totalResults": 0
+    "totalResults": 1
   },
   "component:Blink>Infra>Ecosystem Pri=2 modified<today-60": {
     "items": [
