@@ -10,7 +10,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "0",
           "name": "wangxianzhu@chromium.org"
         },
         "blocking": [
@@ -396,7 +396,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "0",
           "name": "wangxianzhu@chromium.org"
         },
         "canComment": true,
@@ -2395,7 +2395,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1151644111",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "wangxianzhu@chromium.org"
           },
           {
@@ -2532,7 +2532,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "0",
           "name": "wangxianzhu@chromium.org"
         },
         "canComment": true,
@@ -2836,7 +2836,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1151644111",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "wangxianzhu@chromium.org"
           },
           {
@@ -3025,7 +3025,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1151644111",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "1",
+            "last_visit_days_ago": "0",
             "name": "wangxianzhu@chromium.org"
           },
           {
