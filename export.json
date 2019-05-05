@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/b/8914275297707817760",
+      "duration": "3 mins 58 secs",
+      "info": "",
+      "result": "Success",
+      "time": "Sunday, 05-May-19 18:44:33 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/b/8914275625357697712",
       "duration": "3 mins 58 secs",
       "info": "",
@@ -1392,15 +1399,8 @@
       "info": "",
       "result": "Success",
       "time": "Sunday, 05-May-19 00:40:12 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/b/8914343863753383648",
-      "duration": "3 mins 57 secs",
-      "info": "",
-      "result": "Success",
-      "time": "Sunday, 05-May-19 00:34:45 UTC"
     }
   ],
-  "last_success": "Sunday, 05-May-19 18:39:16 UTC",
+  "last_success": "Sunday, 05-May-19 18:44:33 UTC",
   "recent_failures": 0
 }
