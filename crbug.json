@@ -569,7 +569,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1941368613",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "8",
+            "last_visit_days_ago": "9",
             "name": "iclelland@chromium.org"
           }
         ],
