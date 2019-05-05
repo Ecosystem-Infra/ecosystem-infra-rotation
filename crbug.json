@@ -1675,7 +1675,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2824921257",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jonross@chromium.org"
           },
           {
@@ -2451,7 +2451,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2824921257",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "jonross@chromium.org"
           },
           {
