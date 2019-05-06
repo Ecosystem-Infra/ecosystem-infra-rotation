@@ -2077,7 +2077,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/2884559008",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
+          "last_visit_days_ago": "0",
           "name": "tdresser@chromium.org"
         },
         "blockedOn": [
@@ -2160,7 +2160,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2884559008",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "tdresser@chromium.org"
           },
           {
