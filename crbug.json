@@ -1025,7 +1025,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1005757477",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "3",
             "name": "tikuta@chromium.org",
             "vacation_message": "OOO 4/27~5/6 (golden week)"
           },
