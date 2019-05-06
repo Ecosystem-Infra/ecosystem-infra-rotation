@@ -2265,62 +2265,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/2779573485",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
-          "name": "dpranke@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/738613947",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "japhet@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1026888156",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "petermayo@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1322892317",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "41",
-            "name": "qyearsley@chromium.org",
-            "vacation_message": "OOO til May 21"
-          }
-        ],
-        "component_modified": "2017-07-27T18:06:21",
-        "components": [
-          "Blink>Infra"
-        ],
-        "id": 749738,
-        "kind": "monorail#issue",
-        "labels": [
-          "Pri-2",
-          "Filed-Via-SoM"
-        ],
-        "owner_modified": "2017-09-01T21:36:56",
-        "projectId": "chromium",
-        "published": "2017-07-27T18:06:21",
-        "starred": false,
-        "stars": 0,
-        "state": "open",
-        "status": "Available",
-        "status_modified": "2017-09-01T21:36:56",
-        "summary": "3 layout tests failing on webkit win 7 (dbg) for a past N runs",
-        "title": "3 layout tests failing on webkit win 7 (dbg) for a past N runs",
-        "updated": "2019-01-11T20:30:59"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/4006160393",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -2523,7 +2467,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 34
+    "totalResults": 33
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
