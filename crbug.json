@@ -4664,7 +4664,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/65349139",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "233",
+          "last_visit_days_ago": "234",
           "name": "trchen@chromium.org"
         },
         "canComment": true,
@@ -4674,7 +4674,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/65349139",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "233",
+            "last_visit_days_ago": "234",
             "name": "trchen@chromium.org"
           }
         ],
