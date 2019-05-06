@@ -362,7 +362,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1931360713",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "2",
           "name": "thestig@chromium.org"
         },
         "canComment": true,
@@ -555,7 +555,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1091219484",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "yangguo@chromium.org"
           },
           {
@@ -2667,7 +2667,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1931360713",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "1",
+          "last_visit_days_ago": "2",
           "name": "thestig@chromium.org"
         },
         "canComment": true,
