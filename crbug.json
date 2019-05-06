@@ -4808,7 +4808,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/936598639",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "19",
+            "last_visit_days_ago": "0",
             "name": "ajwong@chromium.org"
           },
           {
