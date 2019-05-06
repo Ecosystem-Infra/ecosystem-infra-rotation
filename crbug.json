@@ -1746,7 +1746,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1102809179",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "2",
+            "last_visit_days_ago": "0",
             "name": "rmhasan@google.com"
           },
           {
