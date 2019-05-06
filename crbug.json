@@ -2346,7 +2346,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1443230192",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "160",
+            "last_visit_days_ago": "161",
             "name": "yzjr@chromium.org"
           },
           {
@@ -4784,7 +4784,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/88915427",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "2",
+          "last_visit_days_ago": "3",
           "name": "danakj@chromium.org"
         },
         "blocking": [
