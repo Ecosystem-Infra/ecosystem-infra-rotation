@@ -3453,7 +3453,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1752111342",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "117",
+            "last_visit_days_ago": "118",
             "name": "dnj@chromium.org"
           },
           {
@@ -4885,9 +4885,9 @@
         "state": "open",
         "status": "Untriaged",
         "status_modified": "2019-05-07T15:47:42",
-        "summary": "testRunner.displayAsyncThen takes almost a half second to do its thing",
-        "title": "testRunner.displayAsyncThen takes almost a half second to do its thing",
-        "updated": "2019-05-07T18:13:52"
+        "summary": "testRunner.capturePixelsAsyncThen takes almost a half second to do its thing",
+        "title": "testRunner.capturePixelsAsyncThen takes almost a half second to do its thing",
+        "updated": "2019-05-07T18:30:19"
       },
       {
         "author": {
