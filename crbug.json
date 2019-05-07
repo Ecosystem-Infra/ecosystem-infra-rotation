@@ -2405,7 +2405,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3212579043",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "278",
+            "last_visit_days_ago": "279",
             "name": "cco3@chromium.org"
           },
           {
@@ -4803,7 +4803,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3365229754",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "233",
+            "last_visit_days_ago": "234",
             "name": "dglazkov@chromium.org",
             "vacation_message": "OOO until NaN"
           },
