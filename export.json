@@ -1,6 +1,13 @@
 {
   "builds": [
     {
+      "build": "https://ci.chromium.org/b/8914095724630076800",
+      "duration": "13 mins 36 secs",
+      "info": "Step('Export Chromium commits and in-flight CLs to WPT') failed with return_code 1",
+      "result": "Failed",
+      "time": "Tuesday, 07-May-19 18:28:34 UTC"
+    },
+    {
       "build": "https://ci.chromium.org/b/8914096309688738624",
       "duration": "7 mins 46 secs",
       "info": "Step('Export Chromium commits and in-flight CLs to WPT') failed with return_code 1",
@@ -1392,15 +1399,8 @@
       "info": "",
       "result": "Success",
       "time": "Monday, 06-May-19 21:01:02 UTC"
-    },
-    {
-      "build": "https://ci.chromium.org/b/8914176515404366864",
-      "duration": "4 mins 21 secs",
-      "info": "",
-      "result": "Success",
-      "time": "Monday, 06-May-19 20:55:17 UTC"
     }
   ],
   "last_success": "Tuesday, 07-May-19 17:44:11 UTC",
-  "recent_failures": 4
+  "recent_failures": 5
 }
