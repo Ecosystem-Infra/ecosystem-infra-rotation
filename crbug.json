@@ -2470,6 +2470,54 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1328131237",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertocn@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/782559625",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "sajjadm@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1980339850",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "liaoyuke@chromium.org"
+          }
+        ],
+        "component_modified": "2019-05-07T18:49:47",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 960474,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner_modified": "2019-05-07T18:49:47",
+        "projectId": "chromium",
+        "published": "2019-05-07T18:49:47",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-05-07T18:49:47",
+        "summary": "blinkpy/web_tests/merge_results.py shouldn't try to merge coverage files (*.profraw)",
+        "title": "blinkpy/web_tests/merge_results.py shouldn't try to merge coverage files (*.profraw)",
+        "updated": "2019-05-07T18:49:47"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1151644111",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -5103,7 +5151,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 50
+    "totalResults": 51
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
