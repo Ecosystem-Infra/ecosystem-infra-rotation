@@ -6001,83 +6001,6 @@
         "cc": [
           {
             "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/3098058249",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "robertma@chromium.org"
-          }
-        ],
-        "component_modified": "2017-12-12T17:54:28",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 794208,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Task",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2017-12-12T17:54:28",
-        "projectId": "chromium",
-        "published": "2017-12-12T17:54:28",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-13T17:02:34",
-        "summary": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
-        "title": "WPT Import: Use Buildbucket directly to trigger and collect tryjob results",
-        "updated": "2018-12-13T17:02:34"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/3098058249",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "robertma@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "component_modified": "2017-12-07T23:50:31",
-        "components": [
-          "Blink>Infra>Ecosystem"
-        ],
-        "id": 793130,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "Hotlist-GoodFirstBug"
-        ],
-        "owner_modified": "2017-12-07T23:50:31",
-        "projectId": "chromium",
-        "published": "2017-12-07T23:50:31",
-        "starred": false,
-        "stars": 1,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2018-12-10T17:03:55",
-        "summary": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
-        "title": "[Code Health] Make \"path\" an optional argument in common.checkout.git.*",
-        "updated": "2019-04-15T09:32:03"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/1322892317",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "42",
-          "name": "qyearsley@chromium.org",
-          "vacation_message": "OOO til May 21"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1939658455",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
@@ -6268,6 +6191,6 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 8
+    "totalResults": 6
   }
 }
