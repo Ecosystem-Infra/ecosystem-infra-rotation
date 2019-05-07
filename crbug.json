@@ -195,7 +195,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/4187517203",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "3",
+            "last_visit_days_ago": "4",
             "name": "chrishtr@chromium.org"
           }
         ],
@@ -3745,7 +3745,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/4187517203",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
+          "last_visit_days_ago": "4",
           "name": "chrishtr@chromium.org"
         },
         "canComment": true,
@@ -6291,7 +6291,7 @@
           "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/4187517203",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "3",
+          "last_visit_days_ago": "4",
           "name": "chrishtr@chromium.org"
         },
         "canComment": true,
