@@ -4853,6 +4853,13 @@
         "cc": [
           {
             "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/88915427",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "danakj@chromium.org"
+          },
+          {
+            "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/2691429787",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
@@ -4880,7 +4887,7 @@
         "status_modified": "2019-05-07T15:47:42",
         "summary": "testRunner.displayAsyncThen takes almost a half second to do its thing",
         "title": "testRunner.displayAsyncThen takes almost a half second to do its thing",
-        "updated": "2019-05-07T15:47:42"
+        "updated": "2019-05-07T18:13:52"
       },
       {
         "author": {
