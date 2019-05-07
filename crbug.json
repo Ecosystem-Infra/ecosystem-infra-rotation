@@ -2114,7 +2114,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/266225177",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "7",
+            "last_visit_days_ago": "0",
             "name": "panicker@chromium.org"
           },
           {
