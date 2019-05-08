@@ -8,6 +8,62 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1151644111",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "wangxianzhu@chromium.org"
+        },
+        "blocking": [
+          {
+            "issueId": 945470,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1322892317",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "43",
+            "name": "qyearsley@chromium.org",
+            "vacation_message": "OOO til May 21"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/3098058249",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "robertma@chromium.org"
+          }
+        ],
+        "component_modified": "2019-03-26T05:04:15",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 945706,
+        "kind": "monorail#issue",
+        "labels": [
+          "Pri-1",
+          "Type-Bug-Regression"
+        ],
+        "owner_modified": "2019-03-26T05:04:15",
+        "projectId": "chromium",
+        "published": "2019-03-26T05:04:15",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2019-03-26T05:04:15",
+        "summary": "results.html from some web test results fail to show actual results",
+        "title": "results.html from some web test results fail to show actual results",
+        "updated": "2019-03-26T05:10:27"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1710846683",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "6",
@@ -167,7 +223,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 2
+    "totalResults": 3
   },
   "component:Blink>Infra Pri=2 modified<today-60": {
     "items": [
