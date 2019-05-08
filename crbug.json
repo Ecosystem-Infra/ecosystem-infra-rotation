@@ -4973,67 +4973,6 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/189620131",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "mkwst@chromium.org",
-          "vacation_message": "OOO until end of April. Happy Easter!"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/1651200064",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "432",
-            "name": "tyoshino@chromium.org",
-            "vacation_message": "Leaves the project on 2018/03/02"
-          },
-          {
-            "email_bouncing": true,
-            "htmlLink": "https://bugs.chromium.org/u/1813599968",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "639",
-            "name": "sigbjornf@opera.com"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2779573485",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "dpranke@chromium.org"
-          }
-        ],
-        "component_modified": "2014-02-17T08:44:57",
-        "components": [
-          "Blink>Infra",
-          "Blink>Network>XHR"
-        ],
-        "id": 344294,
-        "kind": "monorail#issue",
-        "labels": [
-          "OS-Linux",
-          "Type-Bug",
-          "Pri-3",
-          "Hotlist-Recharge-Cold",
-          "Test-Layout"
-        ],
-        "owner_modified": "2014-02-17T08:44:57",
-        "projectId": "chromium",
-        "published": "2014-02-17T08:44:57",
-        "starred": false,
-        "stars": 3,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-05-07T15:47:58",
-        "summary": "Various CORS tests have different results locally and on the bots.",
-        "title": "Various CORS tests have different results locally and on the bots.",
-        "updated": "2019-05-07T15:47:58"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3358727237",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "5",
@@ -5103,7 +5042,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 50
+    "totalResults": 49
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
