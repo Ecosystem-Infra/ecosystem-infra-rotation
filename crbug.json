@@ -4986,7 +4986,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/1651200064",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "431",
+            "last_visit_days_ago": "432",
             "name": "tyoshino@chromium.org",
             "vacation_message": "Leaves the project on 2018/03/02"
           },
