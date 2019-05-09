@@ -4733,59 +4733,9 @@
       {
         "author": {
           "email_bouncing": false,
-          "htmlLink": "https://bugs.chromium.org/u/339614835",
-          "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
-          "name": "pdr@chromium.org"
-        },
-        "canComment": true,
-        "canEdit": true,
-        "cc": [
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/644859817",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "35",
-            "name": "phajdan.jr@chromium.org"
-          },
-          {
-            "email_bouncing": false,
-            "htmlLink": "https://bugs.chromium.org/u/2016800091",
-            "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "0",
-            "name": "jsbell@chromium.org"
-          }
-        ],
-        "component_modified": "2015-03-11T05:02:34",
-        "components": [
-          "Blink>Infra",
-          "Infra>Client>Chrome"
-        ],
-        "id": 466005,
-        "kind": "monorail#issue",
-        "labels": [
-          "Type-Feature",
-          "Pri-3",
-          "Hotlist-Recharge-Cold"
-        ],
-        "owner_modified": "2015-03-11T05:02:34",
-        "projectId": "chromium",
-        "published": "2015-03-11T05:02:34",
-        "starred": false,
-        "stars": 2,
-        "state": "open",
-        "status": "Untriaged",
-        "status_modified": "2019-05-09T15:47:38",
-        "summary": "Run new tests N times on the CQ and reject patches that prove to be flaky",
-        "title": "Run new tests N times on the CQ and reject patches that prove to be flaky",
-        "updated": "2019-05-09T15:47:38"
-      },
-      {
-        "author": {
-          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3053815138",
           "kind": "monorail#issuePerson",
-          "last_visit_days_ago": "0",
+          "last_visit_days_ago": "1",
           "name": "skobes@chromium.org"
         },
         "canComment": true,
@@ -4896,7 +4846,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/4007590892",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "314",
+            "last_visit_days_ago": "315",
             "name": "abarth@chromium.org"
           }
         ],
@@ -5366,7 +5316,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 56
+    "totalResults": 55
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
