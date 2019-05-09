@@ -2681,6 +2681,39 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/567034358",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "tkent@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2018-05-09T01:26:06",
+        "components": [
+          "Blink>Infra"
+        ],
+        "id": 841090,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Feature",
+          "Pri-3",
+          "Hotlist-Recharge-Cold"
+        ],
+        "owner_modified": "2018-05-09T01:26:06",
+        "projectId": "chromium",
+        "published": "2018-05-09T01:26:06",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Untriaged",
+        "status_modified": "2019-05-09T15:47:00",
+        "summary": "pretty_diff: Support rendering images with delta binary patch",
+        "title": "pretty_diff: Support rendering images with delta binary patch",
+        "updated": "2019-05-09T15:47:00"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/3098058249",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
@@ -5154,7 +5187,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 51
+    "totalResults": 52
   },
   "component:Blink>Infra>Ecosystem Pri=0 modified<today-2": {
     "kind": "monorail#issueList",
