@@ -2408,7 +2408,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3212579043",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "280",
+            "last_visit_days_ago": "281",
             "name": "cco3@chromium.org"
           },
           {
@@ -4408,7 +4408,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/644859817",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "35",
+            "last_visit_days_ago": "36",
             "name": "phajdan.jr@chromium.org"
           },
           {
