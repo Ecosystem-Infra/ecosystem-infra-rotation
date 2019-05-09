@@ -5220,6 +5220,45 @@
       {
         "author": {
           "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1710846683",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "7",
+          "name": "kyleju@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "component_modified": "2019-02-06T20:18:21",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 929343,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1710846683",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "7",
+          "name": "kyleju@chromium.org"
+        },
+        "owner_modified": "2019-02-06T20:17:38",
+        "projectId": "chromium",
+        "published": "2019-02-06T20:17:38",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2019-02-06T20:17:38",
+        "summary": "PR_Cleanup script closed a PR that has exportable changes",
+        "title": "PR_Cleanup script closed a PR that has exportable changes",
+        "updated": "2019-02-11T22:19:05"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
           "htmlLink": "https://bugs.chromium.org/u/1459596405",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "2",
@@ -5839,6 +5878,75 @@
           "last_visit_days_ago": "0",
           "name": "robertma@chromium.org"
         },
+        "blocking": [
+          {
+            "issueId": 800570,
+            "kind": "monorail#issueRef",
+            "projectId": "chromium"
+          }
+        ],
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1710846683",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "7",
+            "name": "kyleju@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2202454187",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "eroman@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/2367938745",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "rsleevi@chromium.org"
+          }
+        ],
+        "component_modified": "2018-01-11T23:09:20",
+        "components": [
+          "Blink>Infra>Ecosystem"
+        ],
+        "id": 801357,
+        "kind": "monorail#issue",
+        "labels": [
+          "Type-Bug",
+          "Pri-2"
+        ],
+        "owner": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/1710846683",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "7",
+          "name": "kyleju@chromium.org"
+        },
+        "owner_modified": "2018-11-28T19:36:59",
+        "projectId": "chromium",
+        "published": "2018-01-11T23:09:20",
+        "starred": false,
+        "stars": 2,
+        "state": "open",
+        "status": "Assigned",
+        "status_modified": "2018-05-31T18:06:52",
+        "summary": "[WPT import] Cannot update expectations for renamed/deleted any.js tests",
+        "title": "[WPT import] Cannot update expectations for renamed/deleted any.js tests",
+        "updated": "2018-11-28T19:36:59"
+      },
+      {
+        "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/3098058249",
+          "kind": "monorail#issuePerson",
+          "last_visit_days_ago": "0",
+          "name": "robertma@chromium.org"
+        },
         "blockedOn": [
           {
             "issueId": 801357,
@@ -5950,7 +6058,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 13
+    "totalResults": 15
   },
   "component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged": {
     "items": [
