@@ -1198,7 +1198,8 @@
           "htmlLink": "https://bugs.chromium.org/u/3032437257",
           "kind": "monorail#issuePerson",
           "last_visit_days_ago": "0",
-          "name": "martiniss@chromium.org"
+          "name": "martiniss@chromium.org",
+          "vacation_message": "OOO back May 13"
         },
         "blocking": [
           {
@@ -1679,7 +1680,8 @@
             "htmlLink": "https://bugs.chromium.org/u/3032437257",
             "kind": "monorail#issuePerson",
             "last_visit_days_ago": "0",
-            "name": "martiniss@chromium.org"
+            "name": "martiniss@chromium.org",
+            "vacation_message": "OOO back May 13"
           },
           {
             "email_bouncing": false,
