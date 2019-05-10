@@ -1,2 +1,1 @@
-google-api-python-client
-MechanicalSoup
+Flask==1.0.2
