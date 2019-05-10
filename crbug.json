@@ -534,6 +534,85 @@
       },
       {
         "author": {
+          "email_bouncing": false,
+          "htmlLink": "https://bugs.chromium.org/u/2757933724",
+          "kind": "monorail#issuePerson",
+          "name": "clusterfuzz@chromium.org"
+        },
+        "canComment": true,
+        "canEdit": true,
+        "cc": [
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/567034358",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "tkent@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1091219484",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "yangguo@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1350301754",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "0",
+            "name": "jgruber@chromium.org"
+          },
+          {
+            "email_bouncing": false,
+            "htmlLink": "https://bugs.chromium.org/u/1941368613",
+            "kind": "monorail#issuePerson",
+            "last_visit_days_ago": "13",
+            "name": "iclelland@chromium.org"
+          }
+        ],
+        "component_modified": "2018-12-14T02:23:56",
+        "components": [
+          "Blink>Infra"
+        ],
+        "fieldValues": [
+          {
+            "derived": false,
+            "fieldName": "NextAction",
+            "fieldValue": "2018-12-13"
+          }
+        ],
+        "id": 906425,
+        "kind": "monorail#issue",
+        "labels": [
+          "OS-Linux",
+          "Type-Bug",
+          "Pri-2",
+          "Stability-Memory-AddressSanitizer",
+          "Stability-Memory-LeakSanitizer",
+          "Needs-Feedback",
+          "Clusterfuzz",
+          "Unreproducible",
+          "ClusterFuzz-Wrong",
+          "Stability-AFL",
+          "Test-Predator-Auto-Components",
+          "Test-Predator-Auto-Owner",
+          "ClusterFuzz-Auto-CC"
+        ],
+        "owner_modified": "2018-12-14T02:23:56",
+        "projectId": "chromium",
+        "published": "2018-11-18T10:03:46",
+        "starred": false,
+        "stars": 1,
+        "state": "open",
+        "status": "Available",
+        "status_modified": "2018-12-14T02:23:56",
+        "summary": "Direct-leak in v8::internal::NativesExternalStringResource::DecodeForDeserialization",
+        "title": "Direct-leak in v8::internal::NativesExternalStringResource::DecodeForDeserialization",
+        "updated": "2018-12-14T02:23:56"
+      },
+      {
+        "author": {
           "email_bouncing": true,
           "htmlLink": "https://bugs.chromium.org/u/248170436",
           "kind": "monorail#issuePerson",
@@ -2317,7 +2396,7 @@
       }
     ],
     "kind": "monorail#issueList",
-    "totalResults": 31
+    "totalResults": 32
   },
   "component:Blink>Infra status:Unconfirmed,Untriaged": {
     "items": [
