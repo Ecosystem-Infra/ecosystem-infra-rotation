@@ -1,5 +1,4 @@
 env/
-gh-pages/
 monorail-key.json
 *.pyc
 __pycache__/
