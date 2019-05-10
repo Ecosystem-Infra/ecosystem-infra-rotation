@@ -13,7 +13,8 @@
 # limitations under the License.
 
 # [START gae_python37_app]
-from flask import Flask
+from flask import Flask, jsonify
+from wptsync import scrape_buildbot, IMPORT_URL, EXPORT_URL
 
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
@@ -26,6 +27,17 @@ def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
 
+@app.route('/api/wptsync/import')
+def wptsync_import():
+    """Return wpt-importer status as JSON."""
+    result = scrape_buildbot(IMPORT_URL)
+    return jsonify(result)
+
+@app.route('/api/wptsync/export')
+def wptsync_export():
+    """Return wpt-exporter status as JSON."""
+    result = scrape_buildbot(EXPORT_URL)
+    return jsonify(result)
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
