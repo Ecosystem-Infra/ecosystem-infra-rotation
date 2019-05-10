@@ -5,12 +5,11 @@ handlers:
     static_files: webapp/index.html
     upload: webapp/index.html
 
-  - url: /api/.*
-    script: auto
+  - url: /bower_components
+    static_dir: webapp/bower_components
+
+  - url: /components
+    static_dir: webapp/components
 
   - url: /docs
     static_dir: docs
-
-  - url: /(.*)
-    static_files: webapp/\1
-    upload: webapp/(.*)
