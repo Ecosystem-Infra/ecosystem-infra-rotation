@@ -4,10 +4,10 @@ This is a tool for the [ecosystem infra](https://bit.ly/ecosystem-infra) rotatio
 
 ## Usage
 
-Visit https://foolip.github.io/ecosystem-infra-rotation/ and follow the instructions.
+Visit https://ecosystem-infra-rotation.appspot.com/ and follow the instructions.
 
 If you reload often you might hit the GitHub API limit for unauthenticated requests.
-If this happens, [generate a new access token](https://github.com/settings/tokens/new) and pass it in the URL: https://foolip.github.io/ecosystem-infra-rotation/#GH_TOKEN=abcdef
+If this happens, [generate a new access token](https://github.com/settings/tokens/new) and pass it in the URL: https://ecosystem-infra-rotation.appspot.com/#GH_TOKEN=abcdef
 
 ## Running locally
 
@@ -22,7 +22,7 @@ To run locally:
 ./build.sh && ./serve.sh
 ```
 
-This will serve the tool at http://localhost:8000/ecosystem-infra-rotation/
+This will serve the tool at http://localhost:8080/
 
 ## API key
 
@@ -31,16 +31,9 @@ You can create a new API key and download a JSON file from the [ecosystem-infra 
 If you don't have access and think you should, ask foolip or robertma.
 See the [Monorail API access](https://bugs.chromium.org/p/monorail/issues/detail?id=3234) request for more details/clues about how this works.
 
-## Server setup
+## Deploying
 
-https://foolip.github.io/ecosystem-infra-rotation/ depends on a cron job running `./build.sh && ./deploy.sh` to update the gh-pages branch.
-
-This is currently run by foolip, but if broken can be set up elsewhere.
-
-With the API key in place, either set up a cron job or just run the following:
+To deploy:
 ```bash
-while true; do
-    git pull && ./build.sh && ./deploy.sh
-    sleep 2m
-done
+./build.sh && ./deploy.sh
 ```
