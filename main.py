@@ -13,8 +13,13 @@
 # limitations under the License.
 
 # [START gae_python37_app]
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+from monorail import query
+from oauth2client.client import GoogleCredentials
 from wptsync import scrape_buildbot, IMPORT_URL, EXPORT_URL
+
+
+MONORAIL_KEY = 'monorail-key.json'
 
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
@@ -26,6 +31,13 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
+
+@app.route('/api/monorail/issues')
+def monorail_issues():
+    """Query monorail issues."""
+    credentials = GoogleCredentials.from_stream(MONORAIL_KEY)
+    result = query(request.args.get('q'), credentials)
+    return jsonify(result)
 
 @app.route('/api/wptsync/import')
 def wptsync_import():
