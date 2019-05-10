@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-import json
-import sys
-
 import mechanicalsoup
 
 BASE_URL = 'https://ci.chromium.org'
@@ -9,7 +5,8 @@ IMPORT_URL = BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-importer?limit=20
 EXPORT_URL = BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-exporter?limit=200'
 
 
-def scrape_buildbot(url, browser=mechanicalsoup.StatefulBrowser()):
+def scrape_buildbot(url):
+    browser = mechanicalsoup.StatefulBrowser()
     browser.open(url)
     rows = browser.get_current_page().select('div.main table.info tr')
 
@@ -49,19 +46,9 @@ def scrape_buildbot(url, browser=mechanicalsoup.StatefulBrowser()):
     return result
 
 
-def scrape_buildbot_to_file(browser, url, result_filename):
-    result = scrape_buildbot(url, browser=browser)
-    with open(result_filename, 'w') as f:
-        json.dump(result, f, indent=2, sort_keys=True)
+def import_status():
+    return scrape_buildbot(IMPORT_URL)
 
 
-def main():
-    import_result = sys.argv[1]
-    export_result = sys.argv[2]
-    browser = mechanicalsoup.StatefulBrowser()
-    scrape_buildbot_to_file(browser, IMPORT_URL, import_result)
-    scrape_buildbot_to_file(browser, EXPORT_URL, export_result)
-
-
-if __name__ == "__main__":
-    main()
+def export_status():
+    return scrape_buildbot(EXPORT_URL)
