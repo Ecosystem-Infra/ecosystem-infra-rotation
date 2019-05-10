@@ -2247,7 +2247,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/819732701",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "120",
+            "last_visit_days_ago": "121",
             "name": "yihongg@chromium.org"
           },
           {
