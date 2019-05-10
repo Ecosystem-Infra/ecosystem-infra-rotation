@@ -72,7 +72,7 @@
     function importExportTask(kind, docs) {
       let task = {
         name: `${kind}er status`,
-        status: fetchJSON(`${kind}.json`).then(builds => {
+        status: fetchJSON(`/api/wptsync/${kind}`).then(builds => {
           const ms_since_last_success = Date.now() - Date.parse(builds.last_success);
           // flag more than one failure in a row
           if (builds.recent_failures > 1) {
@@ -91,18 +91,17 @@
       return task;
     }
 
-    // single fetch that will be shared by tasks
-    const crbugJSON = fetchJSON('crbug.json');
-
     function crbugTask(info) {
-      const BASE_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
+      const BASE_API_URL = '/api/monorail/issues?q='
+      const BASE_WEB_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
+
+      const apiURL = `${BASE_API_URL}${encodeURIComponent(info.query)}`;
+      const webURL = `${BASE_WEB_URL}${encodeURIComponent(info.query)}`;
 
       return {
         name: info.name,
-        href: `${BASE_URL}${encodeURIComponent(info.query)}`,
-        status: crbugJSON.then(async results => {
-          return results[info.query].totalResults;
-        }),
+        href: webURL,
+        status: fetchJSON(apiURL).then(r => r.totalResults),
         docs: info.docs,
       };
     }
