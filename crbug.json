@@ -4135,7 +4135,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3465179604",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "6",
+            "last_visit_days_ago": "7",
             "name": "friedman@chromium.org"
           },
           {
@@ -4184,7 +4184,7 @@
             "email_bouncing": false,
             "htmlLink": "https://bugs.chromium.org/u/3465179604",
             "kind": "monorail#issuePerson",
-            "last_visit_days_ago": "6",
+            "last_visit_days_ago": "7",
             "name": "friedman@chromium.org"
           },
           {
