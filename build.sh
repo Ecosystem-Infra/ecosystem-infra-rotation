@@ -6,4 +6,5 @@ set -o pipefail
 # Install webapp dependencies.
 cd webapp
 rm -rf bower_components
-bower install
+# This will call `bower install`.
+npm install

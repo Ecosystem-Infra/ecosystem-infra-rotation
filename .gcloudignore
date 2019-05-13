@@ -20,3 +20,6 @@ __pycache__/
 
 # Secrets needed to deploy:
 !monorail-key.json
+
+# Build dependencies (bower)
+webapp/node_modules

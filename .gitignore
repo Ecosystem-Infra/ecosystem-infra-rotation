@@ -2,3 +2,5 @@ env/
 monorail-key.json
 *.pyc
 __pycache__/
+webapp/node_modules/
+webapp/bower_components/
