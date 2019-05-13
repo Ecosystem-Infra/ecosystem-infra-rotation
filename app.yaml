@@ -2,14 +2,22 @@ runtime: python37
 
 handlers:
   - url: /
+    secure: always
     static_files: webapp/index.html
     upload: webapp/index.html
 
   - url: /bower_components
+    secure: always
     static_dir: webapp/bower_components
 
   - url: /components
+    secure: always
     static_dir: webapp/components
 
   - url: /docs
+    secure: always
     static_dir: docs
+
+  - url: /api/.*
+    secure: always
+    script: auto
