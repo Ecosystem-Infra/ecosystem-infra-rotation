@@ -1,6 +1,10 @@
+# Note that this file is also included by .gcloudignore, i.e. all files matched
+# here will NOT be deployed.
+
 env/
-monorail-key.json
 *.pyc
 __pycache__/
+
+monorail-key.json
 webapp/node_modules/
-webapp/bower_components/
+# webapp/bower_components/ is in webapp/.gitignore as it needs to be deployed.

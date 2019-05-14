@@ -4,4 +4,4 @@ set -o nounset
 set -o pipefail
 
 VERSION="$(git describe --always --dirty --long)"
-gcloud app deploy --no-promote --project=ecosystem-infra-rotation --version="$VERSION"
+gcloud app deploy --project=ecosystem-infra-rotation --version="$VERSION"
