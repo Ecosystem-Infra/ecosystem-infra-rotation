@@ -18,8 +18,8 @@ __pycache__/
 # Ignored by the build system
 /setup.cfg
 
-# Secrets needed to deploy:
-!monorail-key.json
+# Secrets for local development only
+monorail-key.json
 
 # Build dependencies (bower)
 webapp/node_modules
