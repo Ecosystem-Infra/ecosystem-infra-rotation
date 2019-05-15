@@ -172,23 +172,41 @@
         const blinkInfraTaskInfo = [
           {
             name: 'untriaged issues',
-            query: 'component:Blink>Infra status:Unconfirmed,Untriaged',
-            docs: 'blink-untriaged.md',
+            query: 'component:Blink>Infra -component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged',
+            docs: 'blink-infra-untriaged.md',
           },
           {
             name: 'P0 issues >2 days',
-            query: 'component:Blink>Infra Pri=0 modified<today-2',
-            docs: 'blink-p0.md',
+            query: 'component:Blink>Infra -component:Blink>Infra>Ecosystem Pri=0 modified<today-2',
+            docs: 'crbug-p0.md',
           },
           {
             name: 'P1 issues >30 days',
-            query: 'component:Blink>Infra Pri=1 modified<today-30',
-            docs: 'blink-p1.md',
+            query: 'component:Blink>Infra -component:Blink>Infra>Ecosystem Pri=1 modified<today-30',
+            docs: 'crbug-p1.md',
+          },
+        ];
+
+        const ecosystemInfraTaskInfo = [
+          {
+            name: 'untriaged issues',
+            query: 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged',
+            docs: 'ecosystem-infra-untriaged.md',
+          },
+          {
+            name: 'P0 issues >2 days',
+            query: 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2',
+            docs: 'crbug-p0.md',
+          },
+          {
+            name: 'P1 issues >30 days',
+            query: 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30',
+            docs: 'crbug-p1.md',
           },
           {
             name: 'P2 issues >60 days',
-            query: 'component:Blink>Infra Pri=2 modified<today-60',
-            docs: 'blink-p2.md',
+            query: 'component:Blink>Infra>Ecosystem Pri=2 modified<today-60',
+            docs: 'crbug-p2.md',
           },
         ];
 
@@ -217,13 +235,17 @@
             tasks: wptInfraTaskInfo.map(githubTask),
           },
           {
-            name: 'Blink>Infra issue triage',
-            tasks: blinkInfraTaskInfo.map(crbugTask),
-          },
-          {
             name: 'wpt.fyi',
             tasks: fyiTaskInfo.map(fyiTask),
-          }
+          },
+          {
+            name: 'Ecosystem Infra issue triage',
+            tasks: ecosystemInfraTaskInfo.map(crbugTask),
+          },
+          {
+            name: 'Blink Infra issue triage',
+            tasks: blinkInfraTaskInfo.map(crbugTask),
+          },
         ];
       }
     }
