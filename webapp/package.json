@@ -12,8 +12,9 @@
   },
   "homepage": "https://github.com/foolip/ecosystem-infra-rotation#readme",
   "scripts": {
-    "install": "bower install"
+    "install": "bower install --allow-root"
   },
+  "unsafe-perm": true,
   "dependencies": {},
   "devDependencies": {
     "bower": "1.8.8"
