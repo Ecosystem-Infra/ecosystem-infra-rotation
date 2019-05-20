@@ -11,7 +11,7 @@ action "Build" {
 action "Filter" {
   uses = "actions/bin/filter@master"
   needs = ["Build"]
-  args = "branch auto-deploy"
+  args = "branch master"
 }
 
 action "Authenticate" {
