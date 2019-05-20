@@ -1,34 +1,27 @@
-workflow "build & deploy" {
+workflow "Build & Deploy" {
   on = "push"
-  resolves = ["deploy"]
+  resolves = ["Deploy"]
 }
 
-action "build" {
+action "Build" {
   uses = "actions/npm@master"
   args = "install"
 }
 
-action "filter" {
+action "Filter" {
   uses = "actions/bin/filter@master"
-  needs = ["build"]
+  needs = ["Build"]
   args = "branch master"
 }
 
-action "secrets" {
-  uses = "actions/bin/sh@master"
-  args = ["echo \"$SECRETS_JSON\" | base64 --decode > secrets.json"]
-  needs = ["filter"]
-  secrets = ["SECRETS_JSON"]
-}
-
-action "authenticate" {
+action "Authenticate" {
   uses = "actions/gcloud/auth@master"
-  needs = ["secrets"]
+  needs = ["Filter"]
   secrets = ["GCLOUD_AUTH"]
 }
 
-action "deploy" {
+action "Deploy" {
   uses = "actions/gcloud/cli@master"
   args = "./deploy.sh"
-  needs = ["authenticate"]
+  needs = ["Authenticate"]
 }
