@@ -22,6 +22,6 @@ action "Authenticate" {
 
 action "Deploy" {
   uses = "actions/gcloud/cli@master"
-  args = "./deploy.sh"
   needs = ["Authenticate"]
+  runs = "./deploy.sh"
 }
