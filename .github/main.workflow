@@ -5,13 +5,13 @@ workflow "Build & Deploy" {
 
 action "Build" {
   uses = "actions/npm@master"
-  args = "install"
+  runs = "./build.sh"
 }
 
 action "Filter" {
   uses = "actions/bin/filter@master"
   needs = ["Build"]
-  args = "branch master"
+  args = "branch auto-deploy"
 }
 
 action "Authenticate" {
