@@ -25,4 +25,3 @@ action "Deploy" {
   needs = ["Authenticate"]
   runs = "./deploy.sh"
 }
-
