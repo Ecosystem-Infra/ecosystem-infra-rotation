@@ -18,12 +18,13 @@ def scrape_buildbot(url):
         columns = row.select('td')
 
         time = columns[0].get_text().strip()
-        duration = columns[1].get_text().strip()
-        # revision
-        result = columns[3].get_text().strip()
-        build = BASE_URL + columns[4].a['href']
-        info = columns[5].get_text().strip()
-        if result == 'Success':
+        # columns[1] is end time
+        duration = columns[2].get_text().strip()
+        # columns[3] is commit
+        result = columns[4].get_text().strip()
+        build = BASE_URL + columns[5].a['href']
+        info = columns[6].get_text().strip()
+        if result == 'SUCCESS':
             last_success = last_success or time
         else:
             if not last_success:
