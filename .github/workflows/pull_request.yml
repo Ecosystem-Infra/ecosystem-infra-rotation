@@ -5,7 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - run: export DEPLOY_SHA=`git rev-parse HEAD^2`
-    - run: env
     - run: npm install
-    - run: node deploy.js
+    - run: node deploy.js `git rev-parse HEAD^2`

@@ -6,7 +6,7 @@ const octokit = new Octokit({
 });
 
 const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
-const ref = process.env.DEPLOY_SHA;
+const ref = process.argv[2];
 
 async function main() {
   const deployment = (await octokit.repos.createDeployment({
