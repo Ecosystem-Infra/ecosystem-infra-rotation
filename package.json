@@ -1,0 +1,14 @@
+{
+  "name": "ecosystem-infra-rotation",
+  "description": "Ecosystem Infra Rotation",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foolip/ecosystem-infra-rotation.git"
+  },
+  "dependencies": {
+    "@octokit/rest": "16.28.7"
+  }
+}
