@@ -213,13 +213,13 @@
         const fyiTaskInfo = [
           {
             name: 'stable',
-            query: 'label=stable&products=chrome,firefox,safari', // no Edge
+            query: 'labels=master,stable&products=chrome,firefox,safari', // no Edge
             maxAge: 24*3600,
             docs: 'wpt.fyi-stable.md',
           },
           {
             name: 'experimental',
-            query: 'label=experimental&products=chrome,edge,firefox,safari',
+            query: 'labels=master,experimental&products=chrome,edge,firefox,safari',
             maxAge: 24*3600,
             docs: 'wpt.fyi-experimental.md',
           },
