@@ -8,7 +8,7 @@ async function main() {
   });
 
   const [owner, repo] = process.env.GITHUB_REPOSITORY.split('/');
-  const ref = process.env.GITHUB_SHA;
+  const ref = process.env.GITHUB_REF;
 
   console.log(owner, repo, ref);
 
