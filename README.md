@@ -29,11 +29,12 @@ To build and run the tool locally:
 ./build.sh && dev_appserver.py .
 ```
 
-This will serve the tool at http://localhost:8080/
+This will serve the tool at http://localhost:8080/.
 
-When running locally, you also need a private key of a service account to access Monorail:
+Most checks work fine locally, but if you want to debug/change the Monorail
+queries you will need an API key.
 
-### API key
+### Monorail API key
 
 The Monorail queries require a `monorail-key.json` to be placed in a checkout of this repo.
 You can create a new JSON private key from the
