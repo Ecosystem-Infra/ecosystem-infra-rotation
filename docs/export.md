@@ -16,7 +16,7 @@ cd path/to/web-platform-tests
 git am --3way -p6 ~/wpt.patch
 # If there are conflicts, resolve them before continuing
 git am --continue
-# Create a new branch, commit the changes, and push to GitHub
+# Create a new branch, commit the changes (include the full CL description in the commit message), and push to GitHub
 ```
 
-Finally, create a GitHub PR. Remember to include the full commit message from the CL in the PR you create, and add the **`chromium-export`** label to the PR.
+Finally, create a GitHub PR. Remember to include the full commit message in the PR description, too, and add the **`chromium-export`** label to the PR. Once tests pass, the PR will be automatically merged by the exporter.
