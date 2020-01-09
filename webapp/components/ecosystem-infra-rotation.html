@@ -253,7 +253,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has('refresh')) {
           // Set a minimum refresh rate of 30s to avoid being spammed.
-          const refreshDelay = Math.max(parseInt(urlParams.get('refresh')), 30s) * 1000;
+          const refreshDelay = Math.max(parseInt(urlParams.get('refresh')), 30) * 1000;
           setTimeout(() => { window.location.reload(false); }, refreshDelay);
         }
       }
