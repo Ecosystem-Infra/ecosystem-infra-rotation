@@ -247,6 +247,14 @@
             tasks: blinkInfraTaskInfo.map(crbugTask),
           },
         ];
+
+        // Naive support for refreshing the dashboard. A better solution would
+        // change the way tasks are stored so that they can be re-called.
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('refresh')) {
+          const refreshDelay = parseInt(urlParams.get('refresh')) * 1000;
+          setTimeout(() => { window.location.reload(false); }, refreshDelay);
+        }
       }
     }
 
