@@ -1,8 +1,8 @@
 import mechanicalsoup
 
 BASE_URL = 'https://ci.chromium.org'
-IMPORT_URL = BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-importer?limit=200'
-EXPORT_URL = BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-exporter?limit=200'
+IMPORT_URL = BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-importer?limit=50'
+EXPORT_URL = BASE_URL + '/p/infra/builders/luci.infra.cron/wpt-exporter?limit=50'
 
 
 def scrape_buildbot(url):
