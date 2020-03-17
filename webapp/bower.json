@@ -1,6 +1,6 @@
 {
   "name": "ecosystem-infra-rotation",
-  "homepage": "https://github.com/foolip/ecosystem-infra-rotation",
+  "homepage": "https://github.com/stephenmcgruer/ecosystem-infra-rotation",
   "private": true,
   "dependencies": {
     "paper-badge": "^2.1.0",

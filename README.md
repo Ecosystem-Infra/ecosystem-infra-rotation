@@ -39,7 +39,7 @@ queries you will need an API key.
 The Monorail queries require a `monorail-key.json` to be placed in a checkout of this repo.
 You can create a new JSON private key from the
 [ecosystem-infra GCP project](https://console.cloud.google.com/iam-admin/serviceaccounts/project?project=ecosystem-infra).
-If you don't have access and think you should, ask foolip or robertma. (Note
+If you don't have access and think you should, ask smcgruer or robertma. (Note
 that this is a different GCP project from the one we deploy to.)
 
 See [Monorail API access](https://bugs.chromium.org/p/monorail/issues/detail?id=3234)

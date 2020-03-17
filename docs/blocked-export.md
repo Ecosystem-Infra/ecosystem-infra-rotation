@@ -2,7 +2,7 @@ These are export PRs which the exporter should have merged by now.
 
 Usually this is caused by failing Travis checks. Read the Travis logs to understand the failure.
 
-A common cause of failure is that [when many tests are affected, Travis jobs will time out](https://github.com/web-platform-tests/wpt/issues/7660). The timeout is at around 50 minutes. When this happens, the PR has to be force merged. Link to [#7660](https://github.com/web-platform-tests/wpt/issues/7660) in a comment and ask @foolip or @Hexcles to merge the PR.
+A common cause of failure is that [when many tests are affected, Travis jobs will time out](https://github.com/web-platform-tests/wpt/issues/7660). The timeout is at around 50 minutes. When this happens, the PR has to be force merged. Link to [#7660](https://github.com/web-platform-tests/wpt/issues/7660) in a comment and ask @stephenmcgruer or @Hexcles to merge the PR.
 
 If the test is flaky, try to reproduce the flakiness locally and if necessary ask the original CL author for help.
 

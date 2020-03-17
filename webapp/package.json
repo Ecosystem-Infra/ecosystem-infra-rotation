@@ -4,13 +4,13 @@
   "description": "Rotation tool for the Chrome Ecosystem Infra team",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foolip/ecosystem-infra-rotation.git"
+    "url": "git+https://github.com/stephenmcgruer/ecosystem-infra-rotation.git"
   },
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/foolip/ecosystem-infra-rotation/issues"
+    "url": "https://github.com/stephenmcgruer/ecosystem-infra-rotation/issues"
   },
-  "homepage": "https://github.com/foolip/ecosystem-infra-rotation#readme",
+  "homepage": "https://github.com/stephenmcgruer/ecosystem-infra-rotation#readme",
   "scripts": {
     "install": "bower install --allow-root"
   },

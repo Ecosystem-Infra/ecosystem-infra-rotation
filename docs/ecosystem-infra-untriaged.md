@@ -5,5 +5,5 @@ The [Blink>Infra>Ecosystem](https://bugs.chromium.org/p/chromium/issues/list?can
  * For P0-2, assign an owner:
   * WPT import/export: robertma@chromium.org
   * WebDriver or testdriver.js: lpz@chromium.org
-  * Fallback: foolip@chromium.org
+  * Fallback: smcgruer@chromium.org
  * For P3, assign an owner if useful, otherwise set to available.
