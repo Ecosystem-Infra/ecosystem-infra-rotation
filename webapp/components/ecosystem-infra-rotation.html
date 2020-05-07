@@ -169,24 +169,6 @@
           },
         ];
 
-        const blinkInfraTaskInfo = [
-          {
-            name: 'untriaged issues',
-            query: 'component:Blink>Infra -component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged',
-            docs: 'blink-infra-untriaged.md',
-          },
-          {
-            name: 'P0 issues >2 days',
-            query: 'component:Blink>Infra -component:Blink>Infra>Ecosystem Pri=0 modified<today-2',
-            docs: 'crbug-p0.md',
-          },
-          {
-            name: 'P1 issues >30 days',
-            query: 'component:Blink>Infra -component:Blink>Infra>Ecosystem Pri=1 modified<today-30',
-            docs: 'crbug-p1.md',
-          },
-        ];
-
         const ecosystemInfraTaskInfo = [
           {
             name: 'untriaged issues',
@@ -241,10 +223,6 @@
           {
             name: 'Ecosystem Infra issue triage',
             tasks: ecosystemInfraTaskInfo.map(crbugTask),
-          },
-          {
-            name: 'Blink Infra issue triage',
-            tasks: blinkInfraTaskInfo.map(crbugTask),
           },
         ];
 
