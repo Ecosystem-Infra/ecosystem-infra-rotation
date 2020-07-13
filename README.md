@@ -4,11 +4,11 @@ This is a tool for the [Ecosystem Infra](https://bit.ly/ecosystem-infra) rotatio
 
 ## Usage
 
-Visit https://ecosystem-infra-rotation.appspot.com/ and follow the instructions.
+Visit https://ecosystem-infra-rotation.uk.r.appspot.com/ and follow the instructions.
 
 If you reload often you might hit the GitHub API limit for unauthenticated requests.
 If this happens, [generate a new access token](https://github.com/settings/tokens/new)
-and pass it in the URL: https://ecosystem-infra-rotation.appspot.com/#GH_TOKEN=abcdef
+and pass it in the URL: https://ecosystem-infra-rotation.uk.r.appspot.com/#GH_TOKEN=abcdef
 
 ### Dependencies
 
