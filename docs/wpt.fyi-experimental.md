@@ -6,5 +6,5 @@ Contact points for the underlying runner infrastructure:
 * Chrome - [@LukeZielinski](https://github.com/lukezielinski) (Taskcluster)
 * Edge - [@mustjab](https://github.com/mustjab) (Azure Pipelines)
 * Firefox - [@jgraham](http://github.com/jgraham) (Taskcluster)
-* Safari - [@foolip](https://github.com/foolip) (Azure Pipelines)
+* Safari - [@stephenmcgruer](https://github.com/stephenmcgruer), [@gsnedders](https://github.com/gsnedders) (Azure Pipelines)
 * WebKitGTK - [@clopez](http://github.com/clopez) (Taskcluster)

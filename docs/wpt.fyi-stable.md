@@ -5,4 +5,4 @@ If this check fails, file an issue on [wpt.fyi](https://github.com/web-platform-
 Contact points for the underlying runner infrastructure:
 * Chrome - [@LukeZielinski](https://github.com/lukezielinski) (Taskcluster)
 * Firefox - [@jgraham](http://github.com/jgraham) (Taskcluster)
-* Safari - [@foolip](https://github.com/foolip) (Azure Pipelines)
+* Safari - [@stephenmcgruer](https://github.com/stephenmcgruer), [@gsnedders](https://github.com/gsnedders) (Azure Pipelines)
