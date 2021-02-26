@@ -10,5 +10,6 @@ directory, it's best to create a PR to fix the error in upstream WPT. These are
 typically expected to be lint errors (eg: whitespace, mismatch with executable
 bits, etc).
 
+If the Rubber-Stamper bot rejects an import, [see this documentation](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md#rubber_stamper-bot).
 
-When you're on rotation, the importer will add your as a TBR reviewer for import CLs, but you don’t need to review the CLs if there’s no sign of trouble.
+The importer will cc the current rotation sheriff on import CLs, but you don’t need to do anything unless something breaks.
