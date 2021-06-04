@@ -15,7 +15,7 @@ Follow these steps (see [#23617](https://github.com/web-platform-tests/wpt/pull/
 - reference the new bug in the PR.
 - force merge the PR.
 
-Another common cause of failure is that [when many tests are affected, TaskCluster jobs will time out](https://github.com/web-platform-tests/wpt/issues/7660). The timeout is at around 120 minutes. When this happens, the PR has to be force merged. Link to [#7660](https://github.com/web-platform-tests/wpt/issues/7660) in a comment and ask @stephenmcgruer or @Hexcles to merge the PR.
+Another common cause of failure is that [when many tests are affected, TaskCluster jobs will time out](https://github.com/web-platform-tests/wpt/issues/7660). The timeout is at around 120 minutes. When this happens, the PR has to be force merged. Link to [#7660](https://github.com/web-platform-tests/wpt/issues/7660) in a comment and ask @foolip or @past to merge the PR.
 
 If the failure looks unrelated to the code changes, first rebase and force push the branch. This will both bring in any recent fixes to the problem and trigger a new TaskCluster run. If that doesn't fix the problem and other PRs are also affected, [file a wpt infra bug](https://github.com/web-platform-tests/wpt/issues/new?labels=infra).
 
