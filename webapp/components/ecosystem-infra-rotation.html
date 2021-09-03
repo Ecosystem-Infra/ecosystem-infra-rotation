@@ -91,21 +91,6 @@
       return task;
     }
 
-    function crbugTask(info) {
-      const BASE_API_URL = '/api/monorail/issues?q='
-      const BASE_WEB_URL = 'https://bugs.chromium.org/p/chromium/issues/list?can=2&q=';
-
-      const apiURL = `${BASE_API_URL}${encodeURIComponent(info.query)}`;
-      const webURL = `${BASE_WEB_URL}${encodeURIComponent(info.query)}`;
-
-      return {
-        name: info.name,
-        href: webURL,
-        status: fetchJSON(apiURL).then(r => r.totalResults),
-        docs: info.docs,
-      };
-    }
-
     function fyiTask(info) {
       const apiURL = `https://wpt.fyi/api/runs?${info.query}&max-count=1`;
       const webURL = `https://wpt.fyi/runs?${info.query}`;
@@ -214,10 +199,6 @@
           {
             name: 'wpt infra issue triage',
             tasks: wptInfraTaskInfo.map(githubTask),
-          },
-          {
-            name: 'Ecosystem Infra issue triage',
-            tasks: ecosystemInfraTaskInfo.map(crbugTask),
           },
         ];
 

@@ -14,18 +14,11 @@
 
 from flask import Flask, jsonify, request
 
-import monorail
 import wptsync
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
 # called `app` in `main.py`.
 app = Flask(__name__)
-
-
-@app.route('/api/monorail/issues')
-def monorail_issues():
-    """Query monorail issues."""
-    return jsonify(monorail.query(request.args.get('q')))
 
 
 @app.route('/api/wptsync/import')
