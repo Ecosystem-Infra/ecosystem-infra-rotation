@@ -12,25 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from flask import Flask, jsonify, request
-
-import wptsync
+from flask import Flask
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
 # called `app` in `main.py`.
 app = Flask(__name__)
-
-
-@app.route('/api/wptsync/import')
-def wptsync_import():
-    """Return wpt-importer status as JSON."""
-    return jsonify(wptsync.import_status())
-
-
-@app.route('/api/wptsync/export')
-def wptsync_export():
-    """Return wpt-exporter status as JSON."""
-    return jsonify(wptsync.export_status())
 
 
 if __name__ == '__main__':

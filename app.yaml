@@ -17,7 +17,3 @@ handlers:
   - url: /docs
     secure: always
     static_dir: docs
-
-  - url: /api/.*
-    secure: always
-    script: auto

@@ -69,28 +69,6 @@
       };
     }
 
-    function importExportTask(kind, docs) {
-      let task = {
-        name: `${kind}er status`,
-        status: fetchJSON(`/api/wptsync/${kind}`).then(builds => {
-          const ms_since_last_success = Date.now() - Date.parse(builds.last_success);
-          // flag more than one failure in a row
-          if (builds.recent_failures > 1) {
-            return builds.recent_failures;
-          }
-          // flag no success in past 12 hours
-          if (ms_since_last_success > 12*3600*1000) {
-            // TODO: include a status message with the failures, not just a count.
-            return -1;
-          }
-          return 0;
-        }),
-        docs: `${kind}.md`,
-      };
-      task.href = `https://ci.chromium.org/p/infra/builders/luci.infra.cron/wpt-${kind}er`;
-      return task;
-    }
-
     function fyiTask(info) {
       const apiURL = `https://wpt.fyi/api/runs?${info.query}&max-count=1`;
       const webURL = `https://wpt.fyi/runs?${info.query}`;
@@ -127,8 +105,6 @@
         super.ready();
 
         const twoWaySyncTasks = [
-          importExportTask('import'),
-          importExportTask('export'),
           githubTask({
             name: 'blocked export PRs',
             query: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`,
