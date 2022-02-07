@@ -22,3 +22,5 @@ If the failure looks unrelated to the code changes, first rebase and force push 
 If there are merge conflicts, try to rebase the branch and force push. If the conflicts are non-trivial, again, ask the original author for help.
 
 Occasionally, the CL being exported has already been reverted in Chromium. Normally reverts are exported just like any other change, but when the first CL is blocked, we can modify the description of the export PR to include the "Change-Id" of the revert and close the PR, to make the exporter skip both. [Example](https://github.com/web-platform-tests/wpt/pull/10438).
+
+If none of these solutions apply to this pull request, there is a chance that there was an unrelated issue with the TaskCluster checks. If all else fails, re-triggering the Taskcluster checks via closing and reopening the pull request can sometimes resolve any transient issues. 
