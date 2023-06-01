@@ -26,10 +26,17 @@ sudo apt install python3 virtualenv python3-venv
 
 To build and run the tool locally:
 ```bash
-./build.sh && dev_appserver.py .
+python3 -m venv dev_env
+source dev_env/bin/activate
+python3 -m pip install -r requirements.txt
+./build.sh
+python3 main.py
 ```
 
-This will serve the tool at http://localhost:8080/.
+This will serve the tool at http://localhost:8080/. Don't forget to exit the virtual environment when you are done:
+```bash
+deactivate
+```
 
 ## Deploying
 
