@@ -33,7 +33,7 @@ python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 
-This will serve the tool at http://localhost:8080/. Don't forget to exit the virtual environment when you are done with:
+This will serve the tool at http://localhost:8080/. Don't forget to exit the virtual environment when you are done:
 ```bash
 deactivate
 ```
