@@ -154,24 +154,6 @@
           },
         ];
 
-        const ecosystemInfraTaskInfo = [
-          {
-            name: 'untriaged issues',
-            query: 'component:Blink>Infra>Ecosystem status:Unconfirmed,Untriaged',
-            docs: 'ecosystem-infra-untriaged.md',
-          },
-          {
-            name: 'P0 issues >2 days',
-            query: 'component:Blink>Infra>Ecosystem Pri=0 modified<today-2',
-            docs: 'crbug-p0.md',
-          },
-          {
-            name: 'P1 issues >30 days',
-            query: 'component:Blink>Infra>Ecosystem Pri=1 modified<today-30',
-            docs: 'crbug-p1.md',
-          },
-        ];
-
         const fyiTaskInfo = [
           {
             name: 'stable',
@@ -184,6 +166,12 @@
             query: 'labels=master,experimental&products=chrome,edge,firefox,safari,webkitgtk',
             maxAge: 24*3600,
             docs: 'wpt.fyi-experimental.md',
+          },
+          {
+            name: 'mobile',
+            query: 'labels=master,experimental&products=chrome_android,firefox_android',
+            maxAge: 24 * 3600,
+            docs: 'wpt.fyi-mobile.md',
           },
         ];
 
