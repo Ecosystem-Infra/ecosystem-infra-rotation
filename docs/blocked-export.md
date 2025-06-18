@@ -9,13 +9,14 @@ these PRs from piling up we aim to clear them from the queue and apply a fix in
 the background.
 
 Follow these steps (see [#23617](https://github.com/web-platform-tests/wpt/pull/23617) for a recent example):
-- copy the "Unstable Results" from the TaskCluster log into the PR for easier
-  viewing.
-- create a crbug to record the flake, which should point to the PR and be assigned to the CL author.
-- reference the new bug in the PR.
-- force merge the PR.
+- Copy the "Unstable Results" from the `public/results/checkrun.md` artifact
+  into a PR comment for easier viewing.
+- Comment on the CL's bug pointing to the flakiness on the PR.
+  If no such open bug exists, create one and assign it to the CL author.
+- Reference the new bug in the PR.
+- Force merge the PR.
 
-Another common cause of failure is that [when many tests are affected, TaskCluster jobs will time out](https://github.com/web-platform-tests/wpt/issues/7660). The timeout is at around 120 minutes. When this happens, the PR has to be force merged. Link to [#7660](https://github.com/web-platform-tests/wpt/issues/7660) in a comment and ask @foolip or @past to merge the PR.
+Another common cause of failure is that [when many tests are affected, TaskCluster jobs will time out](https://github.com/web-platform-tests/wpt/issues/7660). The timeout is at around 120 minutes. When this happens, the PR has to be force merged. Link to [#7660](https://github.com/web-platform-tests/wpt/issues/7660) in a comment and ask `@web-platform-tests/admin` to merge the PR.
 
 If the failure looks unrelated to the code changes, first rebase and force push the branch. This will both bring in any recent fixes to the problem and trigger a new TaskCluster run. If that doesn't fix the problem and other PRs are also affected, [file a wpt infra bug](https://github.com/web-platform-tests/wpt/issues/new?labels=infra).
 
@@ -23,4 +24,4 @@ If there are merge conflicts, try to rebase the branch and force push. If the co
 
 Occasionally, the CL being exported has already been reverted in Chromium. Normally reverts are exported just like any other change, but when the first CL is blocked, we can modify the description of the export PR to include the "Change-Id" of the revert and close the PR, to make the exporter skip both. [Example](https://github.com/web-platform-tests/wpt/pull/10438).
 
-If none of these solutions apply to this pull request, there is a chance that there was an unrelated issue with the TaskCluster checks. If all else fails, re-triggering the Taskcluster checks via closing and reopening the pull request can sometimes resolve any transient issues. 
+If none of these solutions apply to this pull request, there is a chance that there was an unrelated issue with the TaskCluster checks. If all else fails, re-triggering the Taskcluster checks via closing and reopening the pull request can sometimes resolve any transient issues.
