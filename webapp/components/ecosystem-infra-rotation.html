@@ -131,7 +131,7 @@
           importExportTask('export'),
           githubTask({
             name: 'blocked export PRs',
-            query: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)}`,
+            query: `is:pr is:open label:chromium-export -label:"do not merge yet" updated:<${minutesAgo(50)} review:approved`,
             docs: 'blocked-export.md',
           }),
         ];
