@@ -56,4 +56,14 @@ https://crbug.com/381282548#comment2).
 [tooling changes]: https://chromium-review.googlesource.com/q/subject:%22Roll+wpt+tooling%22
 [roll script]: https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/wpt_tools/roll_wpt.py
 
+**Extremely rare**: During the import process, it will also check for any
+exportable CLs to ensure that the imported changes do not clobber them. In
+the unlikely event that you need to ignore a certain CL, add the change ID
+to the `_RAW_KNOWN_EXPORTED_CHANGE_IDS` variable in
+[known_exported_change_ids.py](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/tools/blinkpy/w3c/known_exported_change_ids.py;l=31;drc=6b4304b612b0cf4c20d55eff205d5b16b1572ba6).
+Add a comment next to the ID with a link to the relevant bug. Example scenario
+of when this might occur:
+- A file is **deleted** in the main WPT repository. Before that deletion is **imported** into Chromium, a new CL lands in Chromium that **modifies** that same file. The importer now sees an "exportable" CL that is impossible to apply, as the target file no longer exists upstream.
+
+
 For other persistent failures, please [file an importer bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EInfra&summary=[WPT%20Import]).
