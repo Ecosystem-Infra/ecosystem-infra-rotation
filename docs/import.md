@@ -56,7 +56,7 @@ https://crbug.com/381282548#comment2).
 [tooling changes]: https://chromium-review.googlesource.com/q/subject:%22Roll+wpt+tooling%22
 [roll script]: https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/wpt_tools/roll_wpt.py
 
-**Extremely rare**: During the import process, it will also check for any
+**Extremely rare**: During the import process, it will also reapply any pending
 exportable CLs to ensure that the imported changes do not clobber them. In
 the unlikely event that you need to ignore a certain CL, add the change ID
 to the `_RAW_KNOWN_EXPORTED_CHANGE_IDS` variable in
