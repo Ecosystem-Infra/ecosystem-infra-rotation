@@ -21,10 +21,15 @@ git cl upload --dry-run
 ```
 
 Guidelines for updating [the expectations]:
-* If a test fails with a consistent text diff, add or update an
-  `*-expected.txt` file in the same directory as the test file.
-  The easiest way to do this in your local checkout is by [running the
-  test(s)][run tests] with `run_wpt_tests.py --reset-results $TEST_NAMES`.
+* If a test fails with a consistent text diff,
+  1. If the diff contains ["All subtests passed"][all-pass] on all builders,
+     delete all `*-expected.txt` associated with the test.
+     The test runner expects no subtest failures when `*-expected.txt` is
+     absent.
+  1. Otherwise, add or update an `*-expected.txt` file in the same directory
+     as the test file.
+     The easiest way to do this in your local checkout is by [running the
+     test(s)][run tests] with `run_wpt_tests.py --reset-results $TEST_NAMES`.
 * Otherwise, add an entry to [`TestExpectations` under the `unblock
   wpt-importer` comment][TestExpectations]. The importer will file bugs later
   automatically, so there's no need to file and add them yourself.
@@ -36,6 +41,7 @@ Guidelines for updating [the expectations]:
 
 Once uploaded, send the CL to one or more [committers] for review.
 
+[all-pass]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/writing_web_tests.md#Text-Test-Baselines
 [run tests]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/run_web_platform_tests.md
 [committers]: https://www.chromium.org/getting-involved/become-a-committer/
 [TestExpectations]: https://chromium.googlesource.com/chromium/src/+/3e74d537/third_party/blink/web_tests/TestExpectations#2712
