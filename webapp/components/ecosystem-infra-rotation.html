@@ -168,10 +168,16 @@
             docs: 'wpt.fyi-experimental.md',
           },
           {
-            name: 'mobile',
+            name: 'mobile-stable',
+            query: 'labels=master,stable&products=chrome_android,firefox_android',
+            maxAge: 24 * 3600,
+            docs: 'wpt.fyi-mobile-stable.md',
+          },
+          {
+            name: 'mobile-experimental',
             query: 'labels=master,experimental&products=chrome_android,firefox_android,chrome_ios',
             maxAge: 24 * 3600,
-            docs: 'wpt.fyi-mobile.md',
+            docs: 'wpt.fyi-mobile-experimental.md',
           },
         ];
 
